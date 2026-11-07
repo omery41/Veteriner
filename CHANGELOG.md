@@ -1,5 +1,11 @@
 # Patiderdi · Sürüm Notları
 
+## 1.6.0 · 8 Kasım 2026
+- 60 hastalığın tüm bölümleri kontrol edildi; klinik tedavisi 2 maddede kalan 5 hastalık tamamlandı.
+- Belirti ve öneri maddeleri bölüm açılır açılmaz görünüyor.
+- Her anlatım ekranına kaynak numaraları eklendi; dokununca ilgili makale açılıyor.
+- Kaynaklara 5 klinik kılavuz eklendi: WSAVA diş, IRIS böbrek, AAFP hipertiroidi, ICADA atopik dermatit, AAHA kilo yönetimi.
+
 ## 1.5.0 · 8 Kasım 2026
 - Anlatımlar Chatterbox Multilingual (MIT lisanslı) yapay zekâ sesiyle önceden seslendirilip uygulamaya kayıt olarak eklendi.
 - Kayıtlar GitHub sunucularında otomatik üretiliyor; metin değişince ilgili kayıt kendiliğinden yenileniyor.

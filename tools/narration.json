@@ -944,8 +944,8 @@
  {
   "id": "tavsan-1-2",
   "animal": "tavsan",
-  "hash": "b7e5a6d63d3ad978",
-  "text": "Klinikte tedavi. Tırnak kesimi. Kırık tırnakta kanama kontrolü."
+  "hash": "5dd5ad5dae9d4c0b",
+  "text": "Klinikte tedavi. Tırnak kesimi. Kırık tırnakta kanama kontrolü. Kesim sırasında pati tabanı, pododermatit, ve diş kontrolü."
  },
  {
   "id": "tavsan-1-3",
@@ -1034,8 +1034,8 @@
  {
   "id": "tavsan-4-2",
   "animal": "tavsan",
-  "hash": "a9d0118eb48defeb",
-  "text": "Klinikte tedavi. Kondisyon skoru ve kilo hedefi. Diyet planı; açlık diyeti asla uygulanmaz."
+  "hash": "8559843403b26864",
+  "text": "Klinikte tedavi. Kondisyon skoru ve kilo hedefi. Diyet planı; açlık diyeti asla uygulanmaz. Hareketi kısıtlayan diş ve eklem sorunlarının taranması."
  },
  {
   "id": "tavsan-4-3",
@@ -1274,8 +1274,8 @@
  {
   "id": "hamster-2-2",
   "animal": "hamster",
-  "hash": "e1950e2b870d8325",
-  "text": "Klinikte tedavi. Veteriner tarafından tırnak kesimi. Kırık tırnakta kanama kontrolü."
+  "hash": "e26a43bf9fe3e945",
+  "text": "Klinikte tedavi. Veteriner tarafından tırnak kesimi. Kırık tırnakta kanama kontrolü. Yaşlı hamsterde hareketsizliğe yol açan eklem ya da kilo sorununun taranması."
  },
  {
   "id": "hamster-2-3",
@@ -1514,8 +1514,8 @@
  {
   "id": "kaplumbaga-0-2",
   "animal": "kaplumbaga",
-  "hash": "7f8f5d59016670d8",
-  "text": "Klinikte tedavi. Veteriner tarafından gaganın törpülenmesi. Kalsiyum ve UV-B koşullarının değerlendirilmesi."
+  "hash": "bb998dc38df0bf3c",
+  "text": "Klinikte tedavi. Veteriner tarafından gaganın törpülenmesi. Kalsiyum ve UV-B koşullarının değerlendirilmesi. Gerekirse kan kalsiyum ölçümü ve röntgen ile metabolik kemik hastalığı taraması."
  },
  {
   "id": "kaplumbaga-0-3",
@@ -1544,8 +1544,8 @@
  {
   "id": "kaplumbaga-1-2",
   "animal": "kaplumbaga",
-  "hash": "8075388178aaba9a",
-  "text": "Klinikte tedavi. Tırnak kesimi. Bacak ve eklem kontrolü."
+  "hash": "6cafd2cbcefd8884",
+  "text": "Klinikte tedavi. Tırnak kesimi. Bacak ve eklem kontrolü. UV-B ve kalsiyum yetersizliği açısından barınma koşullarının değerlendirilmesi."
  },
  {
   "id": "kaplumbaga-1-3",

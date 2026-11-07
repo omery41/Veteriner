@@ -98,6 +98,8 @@ body.noscroll{overflow:hidden}
 .copy.home li .ic{background:var(--accent-soft);color:var(--accent)}
 .copy.alarmc li .ic{background:var(--alarm-soft);color:var(--alarm)}
 @keyframes liIn{to{opacity:1;transform:none}}
+.refs{margin:auto 0 0;font-size:12px;color:var(--muted)}
+.refs a{color:var(--pine);text-decoration:none;font-weight:600}
 .lead{font-size:17px;line-height:1.55;max-width:60ch}
 .controls{display:flex;align-items:center;gap:10px;padding:12px 16px;border-top:1px solid var(--line);flex-wrap:wrap}
 .cbtn{width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:var(--bg);display:grid;place-items:center}
@@ -213,7 +215,7 @@ details.ver ul{margin:4px 0 0;padding-left:18px;display:flex;flex-direction:colu
 
   <p class="disc">Bu içerikler hasta sahibini bilgilendirmek içindir; tanı ve ilaç seçimi her zaman muayene eden veteriner hekime aittir. İlaç adları etken madde grubu olarak verilmiştir, doz bilinçli olarak yazılmamıştır.</p>
 
-  <details class="src">
+  <details class="src" id="kaynaklar">
     <summary>Kaynaklar (hastalık sıklığı ve klinik bilgiler)</summary>
     <ol>
       <li>O'Neill DG ve ark. (2021) Prevalence of commonly diagnosed disorders in UK dogs under primary veterinary care. <i>BMC Veterinary Research</i> 17:69. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7888168/" target="_blank" rel="noopener">PMC7888168</a></li>
@@ -230,12 +232,22 @@ details.ver ul{margin:4px 0 0;padding-left:18px;display:flex;flex-direction:colu
       <li>O'Neill DG, Kim K, Brodbelt DC, Church DB, Pegram C, Baldrey V (2022) Demography, disorders and mortality of pet hamsters under primary veterinary care in the United Kingdom in 2016. <i>J Small Anim Pract</i>. doi:10.1111/jsap.13527</li>
       <li>Hornby JM, Hedley J, Brodbelt DC, Church DB, O'Neill DG (2025) Demography, commonly recorded disorders and mortality in chelonia under UK primary veterinary care: A VetCompass study. <i>PLOS One</i>. doi:10.1371/journal.pone.0321038</li>
       <li>Kuş hastanesi kesitsel çalışması (836 olgu): beslenme %52, solunum %21, yaralanma %18, tüy yolma %10. UNAM tez deposu.</li>
+      <li>Niemiec B ve ark. (2020) World Small Animal Veterinary Association Global Dental Guidelines. <i>J Small Anim Pract</i> 61(7):E36–E161.</li>
+      <li>International Renal Interest Society (IRIS). IRIS Staging of CKD ve tedavi önerileri. iris-kidney.com</li>
+      <li>Carney HC ve ark. (2016) 2016 AAFP Guidelines for the Management of Feline Hyperthyroidism. <i>J Feline Med Surg</i> 18(5):400–416.</li>
+      <li>Olivry T ve ark. (2015) Treatment of canine atopic dermatitis: 2015 updated guidelines from the ICADA. <i>BMC Veterinary Research</i> 11:210.</li>
+      <li>Brooks D ve ark. (2014) 2014 AAHA Weight Management Guidelines for Dogs and Cats. <i>J Am Anim Hosp Assoc</i> 50(1):1–11.</li>
     </ol>
   </details>
 
   <details class="ver" id="ver">
-    <summary>Sürüm 1.5.0</summary>
+    <summary>Sürüm 1.6.0</summary>
     <div class="notes">
+      <div><h4>1.6.0 <span>· 8 Kasım 2026</span></h4>
+        <ul><li>60 hastalığın tüm bölümleri kontrol edildi; klinik tedavisi 2 maddede kalan 5 hastalık (tavşan tırnak ve obezite, hamster tırnak, kaplumbağa gaga ve tırnak) tamamlandı.</li>
+        <li>Belirti ve öneri maddeleri bölüm açılır açılmaz görünüyor; önceden bölüm boyunca yavaşça beliriyordu.</li>
+        <li>Her anlatım ekranına dayandığı kaynak numaraları eklendi; numaraya dokununca kaynak listesinde o makale açılıyor.</li>
+        <li>Kaynaklara 5 klinik kılavuz eklendi: WSAVA diş, IRIS böbrek, AAFP hipertiroidi, ICADA atopik dermatit, AAHA kilo yönetimi.</li></ul></div>
       <div><h4>1.5.0 <span>· 8 Kasım 2026</span></h4>
         <ul><li>Anlatımlar Chatterbox Multilingual (MIT lisanslı) yapay zekâ sesiyle önceden seslendirilip uygulamaya kayıt olarak eklendi.</li>
         <li>Kayıtlar GitHub sunucularında otomatik üretiliyor; metin değişince ilgili kayıt kendiliğinden yenileniyor.</li>
@@ -586,7 +598,7 @@ tavsan:[
  {n:"Tırnak uzaması",p:"Tavşanlarda en sık kayıt (%16–28)",fx:"nail",st:"limp",
   w:"Ev ortamında yeterince kazıp koşamayan tavşanlarda tırnaklar uzar ve kıvrılır.",
   s:["Zeminde tıkırtı","Patide yanlış basma","Kırık, kanayan tırnak","Pati tabanında yara"],
-  t:["Tırnak kesimi","Kırık tırnakta kanama kontrolü"],
+  t:["Tırnak kesimi","Kırık tırnakta kanama kontrolü","Kesim sırasında pati tabanı (pododermatit) ve diş kontrolü"],
   h:["4–6 haftada bir kesin; tavşanı havluya sarıp sakin tutun","Kazma kutusu ve sert zeminli alan sağlayın","Kesimi iki kişi yapın, tavşanı asla sırtüstü bayıltarak tutmayın"],
   a:"Durmayan kanama ya da pati şişliği."},
  {n:"Perine kirlenmesi (kirli popo)",p:"Tavşanların yaklaşık %4,5'i",fx:"soil",st:"sick",
@@ -604,7 +616,7 @@ tavsan:[
  {n:"Obezite",p:"Tavşanların %4–9'u",fx:"weight",st:"fat",
   w:"Pellet ve meyve fazlalığı, az hareket. Kirli popo, sinek larvası ve eklem sorununa zemin hazırlar.",
   s:["Kaburgalar hissedilmiyor","Gerdan altında büyük yağ katmanı","Popoyu temizleyememe","Hareketsizlik"],
-  t:["Kondisyon skoru ve kilo hedefi","Diyet planı; açlık diyeti asla uygulanmaz"],
+  t:["Kondisyon skoru ve kilo hedefi","Diyet planı; açlık diyeti asla uygulanmaz","Hareketi kısıtlayan diş ve eklem sorunlarının taranması"],
   h:["Pelleti azaltın, otu sınırsız bırakın","Meyveyi haftada 1–2 küçük dilimle sınırlayın","Tünel ve rampalarla günlük hareket alanı kurun","Ayda bir tartın"],
   a:"Kilo verirken yemeyi bırakma: GI staz riski."},
  {n:"Sinek larvası (myiasis)",p:"Tavşanlarda en sık ölüm nedeni (%10,9)",fx:"fly",st:"sick",
@@ -654,7 +666,7 @@ hamster:[
  {n:"Tırnak uzaması",p:"Hamsterlerin %4,1'i",fx:"nail",st:"limp",
   w:"Yumuşak altlıkta yaşayan ve yaşlanan hamsterlerde tırnaklar aşınmaz, kıvrılıp yürümeyi bozar.",
   s:["Kıvrık, uzun tırnaklar","Tırnağın altlığa takılması","Yürürken zorlanma","Tımarlanırken kendini çizme"],
-  t:["Veteriner tarafından tırnak kesimi","Kırık tırnakta kanama kontrolü"],
+  t:["Veteriner tarafından tırnak kesimi","Kırık tırnakta kanama kontrolü","Yaşlı hamsterde hareketsizliğe yol açan eklem ya da kilo sorununun taranması"],
   h:["Kafese yassı, pürüzlü bir taş ya da kiremit koyun; hamster üzerinde yürüdükçe tırnaklar aşınır","Kesimi evde yapacaksanız yalnızca uçtaki şeffaf kısmı alın","Kafes tabanında tel bölüm bırakmayın"],
   a:"Durmayan tırnak kanaması."},
  {n:"Kesici diş uzaması",p:"Hamsterlerin %4'ü",fx:"tooth",st:"sick",
@@ -704,13 +716,13 @@ kaplumbaga:[
  {n:"Gaga uzaması",p:"Kaplumbağalarda en sık kayıt (%17)",fx:"beak",st:"sick",
   w:"Yumuşak yiyeceklerle beslenen kaplumbağada gaga aşınmaz, kanca gibi uzar. Çoğu zaman beslenme ve kalsiyum sorununa işaret eder.",
   s:["Üst gagada kanca gibi uzama","Yemi ısıramama","Kilo kaybı","Gagada çatlak, katman ayrılması"],
-  t:["Veteriner tarafından gaganın törpülenmesi","Kalsiyum ve UV-B koşullarının değerlendirilmesi"],
+  t:["Veteriner tarafından gaganın törpülenmesi","Kalsiyum ve UV-B koşullarının değerlendirilmesi","Gerekirse kan kalsiyum ölçümü ve röntgen ile metabolik kemik hastalığı taraması"],
   h:["Kara kaplumbağasına marul ve meyve yerine yabani otlar (karahindiba, sinirotu, gelincik yaprağı) verin","Yemi taş ya da sert zemine koyun, yerken gaga aşınsın","Kalsiyum için mürekkep balığı kemiği bulundurun","Gagayı evde kesmeye çalışmayın"],
   a:"Hiç yememe ya da gagada kanama."},
  {n:"Tırnak uzaması",p:"Kaplumbağaların %11'i",fx:"nail",st:"limp",
   w:"Yumuşak zemin ve az hareket tırnakların aşınmasını engeller.",
   s:["Kıvrık uzun tırnaklar","Yürürken bacağın yana kayması","Tırnak kırılması"],
-  t:["Tırnak kesimi","Bacak ve eklem kontrolü"],
+  t:["Tırnak kesimi","Bacak ve eklem kontrolü","UV-B ve kalsiyum yetersizliği açısından barınma koşullarının değerlendirilmesi"],
   h:["Barınağın bir bölümüne kazınabilir toprak, bir bölümüne düz taş koyun","Havalar uygunsa günde birkaç saat dışarıda güvenli alanda yürütün","Su kaplumbağasında sert taş zemin ve kara alanı sağlayın"],
   a:"Tırnak dibinde şişlik ya da kanama."},
  {n:"Kabuk bozukluğu (metabolik kemik hastalığı)",p:"Kabuk anormallikleri %10",fx:"shell",st:"sick",
@@ -763,6 +775,16 @@ kaplumbaga:[
   a:"Kabuktan kanama ya da iç doku görünüyorsa."}
 ]};
 
+/* Her hastalığın dayandığı kaynak numaraları (sayfa altındaki listeye göre). Boş: genel veteriner klinik bilgisi */
+const REFS={
+ kedi:[[3,4,15],[3,4,19],[3,4],[3,4],[4],[4],[4,16],[3,4,17],[3,4],[4]],
+ kopek:[[1,2,15],[1,2],[1,2,19],[1,2],[1,2],[1,2],[1],[1,18],[1],[1]],
+ kus:[[9,14],[10,11,14],[9,14],[7],[8],[9],[9,11],[9],[9],[14]],
+ tavsan:[[5,6],[5,6],[5],[5],[5,6],[5],[5,6],[6],[5],[5]],
+ hamster:[[12],[12],[12],[12],[12],[12],[12],[12],[12],[]],
+ kaplumbaga:[[13],[13],[13],[13],[13],[13],[13],[],[],[13]]
+};
+function refLine(){ const r=(REFS[curA]||[])[curD]||[]; return `<p class="refs">${r.length?"Kaynak: "+r.map(n=>`<a href="#kaynaklar" data-ref="${n}">[${n}]</a>`).join(" "):"Kaynak: genel veteriner klinik bilgisi"}</p>`; }
 /* ---------- Görünümler ---------- */
 let curA=null, curD=null;
 const $=s=>document.querySelector(s);
@@ -817,7 +839,7 @@ function showScene(){
   const c=$("#copy"); c.className="copy "+(s.cls||"")+(s.alarm?" alarmc":"");
   const ic=s.alarm?"!":(s.cls==="home"?"✓":null);
   c.innerHTML=`<div><p class="eyebrow" style="margin:0 0 4px">${s.sub}</p><h3 class="sc-title">${s.title}</h3></div>`+
-    (s.items?`<ul>${s.items.map((x,j)=>`<li style="animation-delay:${.3+j*(s.dur/1000/(s.items.length+1))}s"><span class="ic">${ic||j+1}</span><span>${x}</span></li>`).join("")}</ul>`:s.body);
+    (s.items?`<ul>${s.items.map((x,j)=>`<li style="animation-delay:${.15+j*.3}s"><span class="ic">${ic||j+1}</span><span>${x}</span></li>`).join("")}</ul>`:s.body)+refLine();
   document.querySelectorAll("#chapters .chip").forEach((b,j)=>b.classList.toggle("on",j===si));
   if(!playing) c.querySelectorAll("li").forEach(l=>{l.style.animationDelay="0s"});
 }
@@ -977,6 +999,7 @@ $("#prevBtn").onclick=()=>go(si-1);
 $("#nextBtn").onclick=()=>go(si+1);
 function closePlayer(){pause();voice=false;$("#viewPlayer").hidden=true;document.body.classList.remove("noscroll");crumb(2);}
 $("#backBtn").onclick=closePlayer;
+$("#copy").addEventListener("click",e=>{ const a=e.target.closest("a[data-ref]"); if(!a) return; e.preventDefault(); closePlayer(); const d=$("#kaynaklar"); d.open=true; const li=d.querySelectorAll("ol li")[+a.dataset.ref-1]; (li||d).scrollIntoView({behavior:"smooth",block:"center"}); if(li){li.style.background="var(--accent-soft)"; setTimeout(()=>li.style.background="",2500);} });
 document.addEventListener("keydown",e=>{if($("#viewPlayer").hidden)return;if(e.key==="Escape")return closePlayer();if(e.code==="Space"&&e.target.tagName!=="BUTTON"){e.preventDefault();playing?pause():play();}if(e.key==="ArrowRight")go(si+1);if(e.key==="ArrowLeft")go(si-1);});
 
 /* Açılış: örnek olarak kedi seçili, listede örnek gösterilir */
