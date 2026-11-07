@@ -1,4 +1,8 @@
-# Sürüm Notları
+# Patiderdi · Sürüm Notları
+
+## 1.3.0 · 8 Kasım 2026
+- Uygulamanın adı Patiderdi oldu.
+- Yeni çizim tarzı simge: yara bantlı pati. Tarayıcı sekmesinde ve iPhone ana ekranında görünür.
 
 ## 1.2.1 · 8 Kasım 2026
 - Hastalık seçilince anlatım sayfanın altında değil, ekranın tamamında açılıyor.
