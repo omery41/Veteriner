@@ -234,8 +234,12 @@ details.ver ul{margin:4px 0 0;padding-left:18px;display:flex;flex-direction:colu
   </details>
 
   <details class="ver" id="ver">
-    <summary>Sürüm 1.4.0</summary>
+    <summary>Sürüm 1.5.0</summary>
     <div class="notes">
+      <div><h4>1.5.0 <span>· 8 Kasım 2026</span></h4>
+        <ul><li>Anlatımlar Chatterbox Multilingual (MIT lisanslı) yapay zekâ sesiyle önceden seslendirilip uygulamaya kayıt olarak eklendi.</li>
+        <li>Kayıtlar GitHub sunucularında otomatik üretiliyor; metin değişince ilgili kayıt kendiliğinden yenileniyor.</li>
+        <li>Telefona model indirilmiyor; kayıt yoksa önceki ses yedek olarak çalışıyor.</li></ul></div>
       <div><h4>1.4.0 <span>· 8 Kasım 2026</span></h4>
         <ul><li>Sesli anlatım artık robotik cihaz sesi yerine doğal bir yapay zekâ Türkçe sesiyle (Piper) yapılıyor.</li>
         <li>Doğal ses ilk kullanımda bir kez indiriliyor, sonra telefonda saklanıyor.</li>
@@ -792,7 +796,7 @@ function buildScenes(d){
     {k:"Veteriner tedavisi",title:"Klinikte tedavi",sub:"Veteriner hekimin değerlendirmesiyle",items:d.t,st:"",fx:fxSVG(d.fx,A).replace(/class="pulse"/g,'class="pulse" opacity=".18"')+vetSVG},
     {k:"Evde bakım",title:"Günlük hayatta yapılacaklar",sub:"İlaca ek olarak evde uygulanacaklar",items:d.h,st:"st-heal",fx:healSVG(A)+homeSVG,cls:"home"},
     {k:"Acil durum",title:"Hemen veteriner",sub:"Bu durumda beklemeyin",body:`<p class="lead"><b>${d.a}</b></p>`,say:`Acil durum. ${d.a}`,st:"st-"+d.st,fx:fxSVG(d.fx,A),alarm:true,dur:7000}
-  ].map(s=>{ if(s.items){s.say=s.title+". "+s.items.join(". ");s.dur=Math.max(8000,s.items.join(" ").length*62);} return s;});
+  ].map((s,k)=>{ s.aid=`${curA}-${curD}-${k}`; if(s.items){s.say=s.title+". "+s.items.join(". ");s.dur=Math.max(8000,s.items.join(" ").length*62);} return s;});
 }
 function openPlayer(i){
   curD=i; const d=D[curA][i];
@@ -828,7 +832,7 @@ function toggleVoice(){
   voice=!voice;
   if(!voice){ stopSpeak(); updateVbtn(); return; }
   unlockAudio();
-  if(neuralState==="ready"||neuralState==="failed") return startVoiced();
+  if(clipFor(scenes[si])||neuralState==="ready"||neuralState==="failed") return startVoiced();
   pause(); updateVbtn();
   ensureNeural().then(()=>{ if(voice) startVoiced(); });
 }
@@ -931,8 +935,24 @@ async function speakNeural(text,id){
   }
   if(id===speechId){ speaking=false; const nx=scenes[si+1]; if(nx) splitSentences(forSpeech(nx.say)).forEach(p=>synth(p)); }
 }
+/* Stüdyo kayıtları: GitHub'da Chatterbox ile önceden üretilmiş mp3'ler (audio/manifest.json) */
+let clipMap=null;
+try{ fetch("audio/manifest.json",{cache:"no-cache"}).then(r=>r.ok?r.json():null).then(m=>{clipMap=m;}).catch(()=>{}); }catch(e){}
+function clipFor(sc){ return clipMap&&sc&&clipMap[sc.aid]?`audio/${clipMap[sc.aid]}.mp3`:null; }
+function playUrl(url,id){
+  return new Promise(res=>{
+    if(id!==speechId) return res();
+    audioEl.onended=audioEl.onerror=()=>res();
+    audioEl.src=url; audioEl.play().catch(()=>res());
+  });
+}
 function speak(text){
   stopSpeak(); const id=speechId; speaking=true;
+  const clip=clipFor(scenes[si]);
+  if(clip){
+    playUrl(clip,id).then(()=>{ if(id===speechId){ speaking=false; const nx=clipFor(scenes[si+1]); if(nx){ const a=new Audio(); a.preload="auto"; a.src=nx; } } });
+    return;
+  }
   if(neuralState==="ready"){ speakNeural(text,id).catch(()=>{ if(id===speechId) deviceSpeak(text,id); }); return; }
   deviceSpeak(text,id);
 }

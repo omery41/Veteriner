@@ -1,5 +1,10 @@
 # Patiderdi · Sürüm Notları
 
+## 1.5.0 · 8 Kasım 2026
+- Anlatımlar Chatterbox Multilingual (MIT lisanslı) yapay zekâ sesiyle önceden seslendirilip uygulamaya kayıt olarak eklendi.
+- Kayıtlar GitHub sunucularında otomatik üretiliyor; metin değişince ilgili kayıt kendiliğinden yenileniyor.
+- Telefona model indirilmiyor; kayıt yoksa önceki ses yedek olarak çalışıyor.
+
 ## 1.4.0 · 8 Kasım 2026
 - Sesli anlatım artık robotik cihaz sesi yerine doğal bir yapay zekâ Türkçe sesiyle (Piper) yapılıyor.
 - Doğal ses ilk kullanımda bir kez indiriliyor, sonra telefonda saklanıyor.

@@ -1,0 +1,89 @@
+name: Seslendirme
+
+# index.html değişince eksik ya da metni değişen sahneleri Chatterbox ile seslendirir
+# ve audio/ klasörüne kaydeder. Elle de başlatılabilir (Actions > Seslendirme > Run workflow).
+on:
+  push:
+    branches: [main]
+    paths: ["index.html", "tools/**", ".github/workflows/seslendirme.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seslendirme
+  cancel-in-progress: false
+
+jobs:
+  uret:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    strategy:
+      fail-fast: false
+      matrix:
+        animal: [kedi, kopek, kus, tavsan, hamster, kaplumbaga]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node tools/build_narration.mjs
+      - name: Eksik sahne var mı?
+        id: check
+        run: |
+          python3 - <<'EOF' >> "$GITHUB_OUTPUT"
+          import json, pathlib
+          items=[x for x in json.load(open("tools/narration.json")) if x["animal"]=="${{ matrix.animal }}"]
+          missing=[x for x in items if not pathlib.Path(f"audio/{x['hash']}.mp3").exists()]
+          print(f"missing={len(missing)}")
+          EOF
+      - uses: actions/setup-python@v5
+        if: steps.check.outputs.missing != '0'
+        with: { python-version: "3.11" }
+      - uses: actions/cache@v4
+        if: steps.check.outputs.missing != '0'
+        with:
+          path: ~/.cache/huggingface
+          key: hf-chatterbox-mtl-v1
+      - name: Chatterbox kur
+        if: steps.check.outputs.missing != '0'
+        run: |
+          sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg
+          pip install -q torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install -q chatterbox-tts
+      - name: Seslendir
+        if: steps.check.outputs.missing != '0'
+        run: python tools/generate_audio.py --animal ${{ matrix.animal }} --out yeni --budget-min 300
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.check.outputs.missing != '0'
+        with:
+          name: ses-${{ matrix.animal }}
+          path: yeni/*.mp3
+          if-no-files-found: ignore
+
+  kaydet:
+    needs: uret
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: ses-*
+          path: yeni
+          merge-multiple: true
+      - name: Kayıtları ekle ve gönder
+        run: |
+          node tools/build_narration.mjs
+          mkdir -p audio
+          if ls yeni/*.mp3 >/dev/null 2>&1; then cp yeni/*.mp3 audio/; fi
+          python3 tools/build_manifest.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio tools/narration.json
+          git diff --cached --quiet && echo "Değişiklik yok" && exit 0
+          git commit -m "Seslendirme: kayıtlar güncellendi"
+          git pull --rebase origin main
+          git push origin HEAD:main

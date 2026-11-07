@@ -1,0 +1,1802 @@
+[
+ {
+  "id": "kedi-0-0",
+  "animal": "kedi",
+  "hash": "9a6c69d1e667c801",
+  "text": "Diş eti hastalığı, periodontal hastalık. Diş taşı ve bakteriler diş etini iltihaplandırır, zamanla diş kökünü ve çene kemiğini yıkar. Yaşla birlikte sıklığı artar."
+ },
+ {
+  "id": "kedi-0-1",
+  "animal": "kedi",
+  "hash": "336bb8cf295ac935",
+  "text": "Belirtiler. Ağız kokusu. Kırmızı, kanayan diş eti. Kuru mamayı tek taraftan çiğneme ya da yemeği ağzından düşürme. Salya, ağzını patisiyle ovuşturma."
+ },
+ {
+  "id": "kedi-0-2",
+  "animal": "kedi",
+  "hash": "e1a8f29649fdab84",
+  "text": "Klinikte tedavi. Anestezi altında diş taşı temizliği ve cilalama. Gerekirse diş röntgeni ve hasarlı diş çekimi. Enfeksiyon varsa veteriner kararıyla antibiyotik ve ağrı kesici."
+ },
+ {
+  "id": "kedi-0-3",
+  "animal": "kedi",
+  "hash": "29b8ba41805c087b",
+  "text": "Günlük hayatta yapılacaklar. Kediye özel macunla haftada 3 ile 4 gün diş fırçalayın; parmak fırçasıyla 10 saniyeyle başlayın. Diş sağlığı onaylı, VOHC, mama veya ödül kullanın. Su kabını her gün yıkayın, çeşmeli su kabı içme isteğini artırır. Yılda bir ağız kontrolünü aşı takvimine ekleyin."
+ },
+ {
+  "id": "kedi-0-4",
+  "animal": "kedi",
+  "hash": "2c2db3f0c5a50cdc",
+  "text": "Acil durum. Hiç yemek yememe, yüzde şişlik ya da ağızdan kan gelmesi."
+ },
+ {
+  "id": "kedi-1-0",
+  "animal": "kedi",
+  "hash": "b013c3c6d122f883",
+  "text": "Obezite. Alınan enerjinin harcanandan fazla olmasıyla biriken yağ; diyabet, eklem ve idrar yolu sorunları riskini artırır. Kısırlaştırılmış ev kedilerinde daha sık."
+ },
+ {
+  "id": "kedi-1-1",
+  "animal": "kedi",
+  "hash": "6da70e40c2288544",
+  "text": "Belirtiler. Kaburgalar elle zor hissediliyor. Belde girinti yok, karın sarkık. Tüy temizliğinde sırt ve kuyruk kökünü kirli bırakma. Az hareket, çabuk yorulma."
+ },
+ {
+  "id": "kedi-1-2",
+  "animal": "kedi",
+  "hash": "f05f29ca37cd0292",
+  "text": "Klinikte tedavi. Vücut kondisyon skoru ve ideal kilo hedefi belirlenmesi. Reçeteli kilo verme maması; haftada vücut ağırlığının yüzde 0,5 ile 2'si kadar yavaş kayıp. Diyabet ve eklem taraması."
+ },
+ {
+  "id": "kedi-1-3",
+  "animal": "kedi",
+  "hash": "487d92b499eb93da",
+  "text": "Günlük hayatta yapılacaklar. Günlük mamayı mutfak tartısıyla tartın, göz kararı vermeyin. Mamayı 4 ile 5 küçük öğüne bölün, mama bulmacası kullanın. Günde 2 kez 10'ar dakika oltalı oyuncakla oynayın. Ödüller günlük kalorinin yüzde 10'unu geçmesin. Ayda bir tartıp kilo grafiği tutun."
+ },
+ {
+  "id": "kedi-1-4",
+  "animal": "kedi",
+  "hash": "2c0578b78269388f",
+  "text": "Acil durum. Aniden hiç yemek yememe: kilolu kedide 2 ile 3 gün açlık karaciğer yağlanmasına yol açabilir."
+ },
+ {
+  "id": "kedi-2-0",
+  "animal": "kedi",
+  "hash": "300cbb29ad572a87",
+  "text": "Pire ve pire alerjisi. Pire ısırığı kaşıntı yapar; bazı kedilerde pire tükürüğüne alerji gelişir ve tek bir ısırık bile yoğun kaşıntıya yol açar. Pireler şerit kurdu da taşır."
+ },
+ {
+  "id": "kedi-2-1",
+  "animal": "kedi",
+  "hash": "87affe2ca0d9b840",
+  "text": "Belirtiler. Boyun ve kuyruk kökünde yoğun kaşıntı. Tüylerde siyah toz gibi pire dışkısı. Sırtta küçük kabuklu yaralar. Aşırı yalanma, tüy dökülmesi."
+ },
+ {
+  "id": "kedi-2-2",
+  "animal": "kedi",
+  "hash": "bf9af2725d6e369e",
+  "text": "Klinikte tedavi. Kediye uygun pire ilacı, damla ya da tablet, ve düzenli tekrar. Evdeki tüm kedi ve köpeklerin aynı anda tedavisi. Gerekirse kaşıntı ve deri enfeksiyonu tedavisi, iç parazit ilacı."
+ },
+ {
+  "id": "kedi-2-3",
+  "animal": "kedi",
+  "hash": "ec2d068ca8137751",
+  "text": "Günlük hayatta yapılacaklar. Köpek pire ilacını asla kediye sürmeyin; permetrin kediler için zehirlidir. Kedinin yattığı yerleri haftada 1 kez 60 derece'de yıkayın. 3 hafta boyunca her gün halı ve koltuk diplerini süpürüp torbayı dışarı atın. İlacı kış ayları dahil her ay aksatmadan uygulayın."
+ },
+ {
+  "id": "kedi-2-4",
+  "animal": "kedi",
+  "hash": "f8f22a116db96633",
+  "text": "Acil durum. Yavru kedide solgun diş eti ve halsizlik: yoğun pire kansızlık yapabilir."
+ },
+ {
+  "id": "kedi-3-0",
+  "animal": "kedi",
+  "hash": "ffedccef65f89408",
+  "text": "Alerjik deri hastalığı, atopi, besin alerjisi. Bağışıklık sistemi ev tozu akarı, polen, küf ya da bazı besin proteinlerine aşırı tepki verir. Pire alerjisi elendikten sonra düşünülür."
+ },
+ {
+  "id": "kedi-3-1",
+  "animal": "kedi",
+  "hash": "afa90c7de9c32a7b",
+  "text": "Belirtiler. Yüz, kulak ve boyunda kaşıntı. Karın ve iç bacaklarda simetrik tüy dökülmesi, aşırı yalama. Sırtta küçük kabuklar, miliyer dermatit. Kulak kızarıklığı, mevsimsel kötüleşme."
+ },
+ {
+  "id": "kedi-3-2",
+  "animal": "kedi",
+  "hash": "ea376885a6ab8b6e",
+  "text": "Klinikte tedavi. Önce pire kontrolü, sonra 8 hafta süren eliminasyon diyeti. Veteriner kararıyla kaşıntı kesici, kortikosteroid ya da siklosporin. Gerekirse alerji testi ve aşı, immünoterapi. İkincil bakteri ve maya enfeksiyonu tedavisi."
+ },
+ {
+  "id": "kedi-3-3",
+  "animal": "kedi",
+  "hash": "2df26156849bce4b",
+  "text": "Günlük hayatta yapılacaklar. Evi günde 3 kez 10 dakika havalandırın. HEPA filtreli süpürgeyle haftada 2 kez süpürün; kedi o odada olmasın. Kedi yatağını haftada 1 kez 60 derece'de yıkayın. Kokulu kum, oda spreyi ve sigara dumanından uzak tutun. Diyet sürecinde ödül ve sofra artığı vermeyin."
+ },
+ {
+  "id": "kedi-3-4",
+  "animal": "kedi",
+  "hash": "09b01a632b41ae04",
+  "text": "Acil durum. Yüzde hızla büyüyen şişlik ya da nefes darlığı."
+ },
+ {
+  "id": "kedi-4-0",
+  "animal": "kedi",
+  "hash": "2ad5972d1a8494cb",
+  "text": "Üst solunum yolu enfeksiyonu, kedi gribi. Çoğunlukla herpesvirüs ve kalisivirüs kaynaklıdır; bakteriler tabloyu ağırlaştırır. Stres virüsü yeniden aktifleştirebilir."
+ },
+ {
+  "id": "kedi-4-1",
+  "animal": "kedi",
+  "hash": "897205fb09cdbf22",
+  "text": "Belirtiler. Hapşırma, burun akıntısı. Gözde akıntı, kızarıklık. Koku alamadığı için iştahsızlık. Ateş, ağızda yara, kalisivirüs."
+ },
+ {
+  "id": "kedi-4-2",
+  "animal": "kedi",
+  "hash": "5f4cabd23941d8b9",
+  "text": "Klinikte tedavi. Bakteriyel enfeksiyon için veteriner kararıyla antibiyotik. Göz damlası, gerekirse antiviral ilaç. Sıvı tedavisi ve iştah desteği. Karma aşı takviminin tamamlanması."
+ },
+ {
+  "id": "kedi-4-3",
+  "animal": "kedi",
+  "hash": "307f1271d0b003f9",
+  "text": "Günlük hayatta yapılacaklar. Banyoda sıcak duş açıp kediyi 10 dakika buharlı odada tutun, günde 2 kez. Burun akıntısını ılık suyla ıslatılmış pamukla silin. Mamayı hafifçe ılıtın, kokusu iştahı açar. Diğer kedilerden ayırın; mama ve su kaplarını ayrı tutun. Ev ortamını sakin tutun, stres virüsü alevlendirir."
+ },
+ {
+  "id": "kedi-4-4",
+  "animal": "kedi",
+  "hash": "ce51905a97765275",
+  "text": "Acil durum. Ağız açık nefes alma ya da 24 saatten uzun hiç yememe."
+ },
+ {
+  "id": "kedi-5-0",
+  "animal": "kedi",
+  "hash": "a91442b9aad4c69a",
+  "text": "Alt idrar yolu hastalığı, FLUTD, sistit. Mesane iltihabı, idrar kristali ya da taş. En sık neden stresle ilişkili idiyopatik sistittir. Erkek kedilerde idrar yolu tıkanabilir."
+ },
+ {
+  "id": "kedi-5-1",
+  "animal": "kedi",
+  "hash": "849619e6e2a9b0d9",
+  "text": "Belirtiler. Kuma sık sık gidip az idrar yapma. İdrarda kan. İdrar yaparken ağlama. Kum kabı dışına idrar yapma, genital bölgeyi sık yalama."
+ },
+ {
+  "id": "kedi-5-2",
+  "animal": "kedi",
+  "hash": "91a6adb2e34a53d9",
+  "text": "Klinikte tedavi. İdrar tahlili, ultrason; tıkanma varsa sonda ile açma. Ağrı kesici ve kas gevşetici. Kristal varsa reçeteli idrar maması. Stres yönetimi planı."
+ },
+ {
+  "id": "kedi-5-3",
+  "animal": "kedi",
+  "hash": "3ac5ef1c3b841ca8",
+  "text": "Günlük hayatta yapılacaklar. Su alımını artırın: yaş mamaya geçin, eve 2 ile 3 su kabı ve çeşme koyun. Kedi sayısı + 1 kadar kum kabı bulundurun, her gün temizleyin. Kum kabını sessiz bir köşeye koyun. Günde 2 oyun seansı ve tırmanma rafları stresi azaltır. Ev düzenini ani değiştirmeyin; feromon difüzörü düşünün."
+ },
+ {
+  "id": "kedi-5-4",
+  "animal": "kedi",
+  "hash": "0c5f6569b25c93e3",
+  "text": "Acil durum. Erkek kedinin kuma gidip hiç idrar çıkaramaması: aynı gün acil."
+ },
+ {
+  "id": "kedi-6-0",
+  "animal": "kedi",
+  "hash": "803dab93d1e35952",
+  "text": "Kronik böbrek hastalığı. Böbrek dokusu yavaşça işlevini yitirir. Erken evrede belirti azdır; kan ve idrar testleriyle, SDMA, kreatinin, yakalanır."
+ },
+ {
+  "id": "kedi-6-1",
+  "animal": "kedi",
+  "hash": "6265d259db7b2c1b",
+  "text": "Belirtiler. Çok su içme, çok idrar yapma. Kilo kaybı, mat tüyler. Kusma, iştahsızlık. Ağız kokusu, halsizlik."
+ },
+ {
+  "id": "kedi-6-2",
+  "animal": "kedi",
+  "hash": "4943be8c8e1a1a33",
+  "text": "Klinikte tedavi. IRIS evrelemesi; tansiyon ve idrar protein ölçümü. Fosfor ve protein kısıtlı böbrek maması. Gerekirse tansiyon ilacı, fosfor bağlayıcı, bulantı ilacı. İleri evrede deri altı sıvı tedavisi."
+ },
+ {
+  "id": "kedi-6-3",
+  "animal": "kedi",
+  "hash": "67f6a414cd5ab475",
+  "text": "Günlük hayatta yapılacaklar. Taze suyu her zaman birden fazla noktada bulundurun. Yaş mamayı ılıtıp verin; mama değişimini 2 haftaya yayın. 7 yaş sonrası yılda bir, tanıdan sonra 3 ile 6 ayda bir kan testi. Su tüketimini ölçün: sabah ölçülü su koyup akşam kalanı not edin."
+ },
+ {
+  "id": "kedi-6-4",
+  "animal": "kedi",
+  "hash": "eae0dee9eef42172",
+  "text": "Acil durum. Hiç yememe, sürekli kusma ya da sendeleme."
+ },
+ {
+  "id": "kedi-7-0",
+  "animal": "kedi",
+  "hash": "92c8ba3523811aac",
+  "text": "Hipertiroidi. Tiroid bezi fazla hormon üretir, metabolizma hızlanır. Kalp ve böbreği etkiler."
+ },
+ {
+  "id": "kedi-7-1",
+  "animal": "kedi",
+  "hash": "c29e96fe9b161875",
+  "text": "Belirtiler. Bol yemesine rağmen kilo kaybı. Huzursuzluk, gece miyavlama. Hızlı kalp atışı. Kusma, ishal, dağınık tüy."
+ },
+ {
+  "id": "kedi-7-2",
+  "animal": "kedi",
+  "hash": "9f57d06a6a17e274",
+  "text": "Klinikte tedavi. T4 hormon testi ile tanı. Tiroid baskılayıcı ilaç, metimazol, ya da iyotlu diyet. Seçilmiş olgularda radyoaktif iyot ya da cerrahi. Böbrek ve tansiyon takibi."
+ },
+ {
+  "id": "kedi-7-3",
+  "animal": "kedi",
+  "hash": "7895ca8e1abbe7a8",
+  "text": "Günlük hayatta yapılacaklar. İlacı her gün aynı saatte verin; atlanan dozu ikiye katlamayın. İyotlu diyetteyse başka mama ve ödül kesinlikle vermeyin. Haftada bir kilo tartın. Sessiz, ılık bir dinlenme alanı ayırın."
+ },
+ {
+  "id": "kedi-7-4",
+  "animal": "kedi",
+  "hash": "946dabeb3b60fed2",
+  "text": "Acil durum. Ani nefes darlığı ya da arka bacaklarda felç."
+ },
+ {
+  "id": "kedi-8-0",
+  "animal": "kedi",
+  "hash": "b489fe48b6efebbc",
+  "text": "Kavga ısırığı apsesi ve yaralanma. Kedi dişi bakterileri derinin altına iter; birkaç gün içinde irin dolu şişlik oluşur. Trafik kazası da bu grupta sık görülür."
+ },
+ {
+  "id": "kedi-8-1",
+  "animal": "kedi",
+  "hash": "099146aa48489f79",
+  "text": "Belirtiler. Sıcak, ağrılı şişlik. Topallama. Ateş, halsizlik. Patlamış apseden kötü kokulu akıntı."
+ },
+ {
+  "id": "kedi-8-2",
+  "animal": "kedi",
+  "hash": "a4a54eb904864321",
+  "text": "Klinikte tedavi. Apsenin açılıp yıkanması, gerekirse dren. Veteriner kararıyla antibiyotik ve ağrı kesici. FIV/FeLV testi, ısırıkla bulaşır."
+ },
+ {
+  "id": "kedi-8-3",
+  "animal": "kedi",
+  "hash": "68460b3367de5345",
+  "text": "Günlük hayatta yapılacaklar. Yarayı veterinerin önerdiği antiseptikle günde 2 kez temizleyin. Yalamayı engellemek için koruyucu yaka takın. İyileşene kadar kediyi içeride tutun. Kısırlaştırma kavgacılığı ve dolaşmayı azaltır. İnsan ağrı kesicisi, parasetamol, kediler için ölümcüldür, asla vermeyin."
+ },
+ {
+  "id": "kedi-8-4",
+  "animal": "kedi",
+  "hash": "a70ce5ef534dff77",
+  "text": "Acil durum. Trafik kazası sonrası dışarıdan yara olmasa bile hemen kontrol."
+ },
+ {
+  "id": "kedi-9-0",
+  "animal": "kedi",
+  "hash": "d750337c97405072",
+  "text": "İshal ve kusma, enteropati. Ani mama değişimi, parazit, tüy yumağı, enfeksiyon ya da iltihabi bağırsak hastalığı neden olabilir."
+ },
+ {
+  "id": "kedi-9-1",
+  "animal": "kedi",
+  "hash": "6e204e5704b10d2a",
+  "text": "Belirtiler. Yumuşak ya da sulu dışkı. Haftada birden fazla kusma. Kilo kaybı. Kum kabı dışına dışkılama."
+ },
+ {
+  "id": "kedi-9-2",
+  "animal": "kedi",
+  "hash": "11cc87e66d71a550",
+  "text": "Klinikte tedavi. Dışkı muayenesi, parazit tedavisi. Sıvı desteği ve bulantı ilacı. Kolay sindirilen reçeteli mama, probiyotik. Kronikse kan testi, ultrason, diyet denemesi."
+ },
+ {
+  "id": "kedi-9-3",
+  "animal": "kedi",
+  "hash": "a4a09cc31d0600e8",
+  "text": "Günlük hayatta yapılacaklar. Mama değişimini 7 ile 10 güne yayarak yapın. Uzun tüylü kedileri haftada 3 kez tarayın, tüy yumağı azalır. Kum kabını her gün temizleyin; dışkı kıvamını not edin. Bitkileri kontrol edin: zambak kediler için zehirlidir."
+ },
+ {
+  "id": "kedi-9-4",
+  "animal": "kedi",
+  "hash": "efa30b0bfa3c4846",
+  "text": "Acil durum. Kanlı ishal, 24 saatte 3'ten fazla kusma ya da yavru kedide ishal."
+ },
+ {
+  "id": "kopek-0-0",
+  "animal": "kopek",
+  "hash": "ad930504726bf575",
+  "text": "Diş eti hastalığı, periodontal hastalık. Plak ve diş taşı diş etini iltihaplandırır, diş kökü ve çene kemiğine ilerler. Küçük ırklarda daha sık ve erken."
+ },
+ {
+  "id": "kopek-0-1",
+  "animal": "kopek",
+  "hash": "07485d2680692251",
+  "text": "Belirtiler. Ağız kokusu. Sarı-kahve diş taşı, kızarık diş eti. Sert ödülü reddetme, tek taraftan çiğneme. Salya, ağızdan kan."
+ },
+ {
+  "id": "kopek-0-2",
+  "animal": "kopek",
+  "hash": "d6468ea57851b015",
+  "text": "Klinikte tedavi. Anestezi altında diş taşı temizliği ve diş röntgeni. Hasarlı dişlerin çekimi. Gerekirse antibiyotik ve ağrı kesici."
+ },
+ {
+  "id": "kopek-0-3",
+  "animal": "kopek",
+  "hash": "402053f67d813052",
+  "text": "Günlük hayatta yapılacaklar. Köpek macunuyla her gün diş fırçalayın; insan macunu, ksilitol, zehirlidir. VOHC onaylı çiğneme ödülleri kullanın. Kemik ve boynuz gibi çok sert nesneler diş kırar, vermeyin. Yılda bir ağız kontrolü yaptırın."
+ },
+ {
+  "id": "kopek-0-4",
+  "animal": "kopek",
+  "hash": "ad5865e044eec8ca",
+  "text": "Acil durum. Yüzde, göz altında şişlik ya da hiç yememe."
+ },
+ {
+  "id": "kopek-1-0",
+  "animal": "kopek",
+  "hash": "6ea38ed199eb50ca",
+  "text": "Dış kulak iltihabı, otitis externa. Kulak kanalında bakteri ve maya çoğalır. Altta çoğunlukla alerji, sarkık kulak, kıl veya nem yatar."
+ },
+ {
+  "id": "kopek-1-1",
+  "animal": "kopek",
+  "hash": "b8ca582e135874b6",
+  "text": "Belirtiler. Baş sallama, kulak kaşıma. Kötü kokulu kahverengi akıntı. Kulak içinde kızarıklık. Kulağa dokununca ağrı."
+ },
+ {
+  "id": "kopek-1-2",
+  "animal": "kopek",
+  "hash": "630d796d082977c3",
+  "text": "Klinikte tedavi. Kulak sitolojisi ile bakteri/maya ayrımı. Kulak temizliği ve antibiyotik/antifungal damla. Ağrı ve şişlik için ilaç. Altta yatan alerjinin araştırılması."
+ },
+ {
+  "id": "kopek-1-3",
+  "animal": "kopek",
+  "hash": "25cb41834a58bf58",
+  "text": "Günlük hayatta yapılacaklar. Banyo ve yüzme sonrası kulağı pamukla kurulayın. Veterinerin önerdiği temizleyiciyle haftada 1 kez temizleyin; kulak çubuğu kullanmayın. Damlayı tam kür süresince verin, iyileşti diye kesmeyin. Sarkık kulaklı köpeklerde kulak içi kılları düzenli kontrol ettirin."
+ },
+ {
+  "id": "kopek-1-4",
+  "animal": "kopek",
+  "hash": "0964edc2cb970bf6",
+  "text": "Acil durum. Baş eğikliği, denge kaybı ya da gözlerde titreme: orta-iç kulağa yayılmış olabilir."
+ },
+ {
+  "id": "kopek-2-0",
+  "animal": "kopek",
+  "hash": "a3e86cbb739ecc91",
+  "text": "Obezite. Fazla kalori ve az hareket sonucu yağ birikimi. Eklem hastalığı, diyabet ve kısa ömürle ilişkilidir."
+ },
+ {
+  "id": "kopek-2-1",
+  "animal": "kopek",
+  "hash": "f21fba4ac954839e",
+  "text": "Belirtiler. Kaburgalar hissedilmiyor. Bel girintisi kaybolmuş. Yürüyüşte çabuk yorulma, hırıltı. Sıcakta aşırı soluma."
+ },
+ {
+  "id": "kopek-2-2",
+  "animal": "kopek",
+  "hash": "c256c6383dcd4a7b",
+  "text": "Klinikte tedavi. İdeal kilo ve günlük kalori hesabı. Reçeteli kilo verme maması. Tiroid, hipotiroidi, ve eklem taraması."
+ },
+ {
+  "id": "kopek-2-3",
+  "animal": "kopek",
+  "hash": "6b961511bc55156a",
+  "text": "Günlük hayatta yapılacaklar. Mamayı tartıyla ölçün, kap dolu bırakmayın. Ödül yerine havuç dilimi kullanın; ödüller günlük kalorinin yüzde 10'unu geçmesin. Günde 2 kez 20 ile 30 dakika tempolu yürüyüş, eklemleri zorlayan ani koşulardan kaçının. Aile içinde gizli ödül vermeyi önleyecek kural koyun. Ayda bir tartın, fotoğraf çekin."
+ },
+ {
+  "id": "kopek-2-4",
+  "animal": "kopek",
+  "hash": "fb8daec7cd1aa950",
+  "text": "Acil durum. Sıcak havada nefes darlığı ve bayılma."
+ },
+ {
+  "id": "kopek-3-0",
+  "animal": "kopek",
+  "hash": "fb89c25b2ff5e8b2",
+  "text": "Anal kese tıkanıklığı. Anüsün iki yanındaki keseler normalde dışkılamayla boşalır. Yumuşak dışkı ve kilo boşalmayı engelleyince dolup iltihaplanır."
+ },
+ {
+  "id": "kopek-3-1",
+  "animal": "kopek",
+  "hash": "5e48b904d3b1e5f1",
+  "text": "Belirtiler. Popoyu yere sürtme, kızak. Kuyruk altını sık yalama. Balık gibi koku. Anüs yanında şişlik."
+ },
+ {
+  "id": "kopek-3-2",
+  "animal": "kopek",
+  "hash": "90513b9a267991fd",
+  "text": "Klinikte tedavi. Kesenin elle boşaltılması. Enfeksiyon/apsede yıkama ve antibiyotik. Tekrarlayanlarda cerrahi."
+ },
+ {
+  "id": "kopek-3-3",
+  "animal": "kopek",
+  "hash": "1cce6db5f27b21cb",
+  "text": "Günlük hayatta yapılacaklar. Lif oranı yüksek mama dışkıyı sıkılaştırır; veterinere sorun. Günlük yürüyüşü düzenli yapın. Kilo kontrolü sağlayın. Evde boşaltmayı ancak veteriner gösterdiyse yapın."
+ },
+ {
+  "id": "kopek-3-4",
+  "animal": "kopek",
+  "hash": "d390ff5f9f1c6700",
+  "text": "Acil durum. Anüs yanında kızarık, açılmış yara ya da kan."
+ },
+ {
+  "id": "kopek-4-0",
+  "animal": "kopek",
+  "hash": "d1e1d39456d510ae",
+  "text": "Tırnak uzaması. Yumuşak zeminde yaşayan ve az yürüyen köpeklerde tırnak aşınmaz, kıvrılıp pati duruşunu bozar."
+ },
+ {
+  "id": "kopek-4-1",
+  "animal": "kopek",
+  "hash": "8b819849d15df445",
+  "text": "Belirtiler. Parkede tıkırtı. Patide kayma, yürüyüş bozukluğu. Kıvrılıp pati yastığına batan tırnak, özellikle ergot. Tırnak kırığı ve kanama."
+ },
+ {
+  "id": "kopek-4-2",
+  "animal": "kopek",
+  "hash": "d09bcccc692c2f74",
+  "text": "Klinikte tedavi. Tırnak kesimi. Batmış tırnakta yara temizliği. Kırık tırnakta ağrı kontrolü."
+ },
+ {
+  "id": "kopek-4-3",
+  "animal": "kopek",
+  "hash": "9c3c20d29994dfc1",
+  "text": "Günlük hayatta yapılacaklar. 2 ile 4 haftada bir kesin; kanlı kısmı, canlı, görmek için açık renkli tırnaklarda ışık tutun. Kesime yavruyken alıştırın, her kesimde ödül verin. Haftada birkaç kez asfaltta yürüyüş doğal aşınma sağlar. Ergot tırnağını unutmayın."
+ },
+ {
+  "id": "kopek-4-4",
+  "animal": "kopek",
+  "hash": "9befdf28a4bbdd3c",
+  "text": "Acil durum. Durmayan tırnak kanaması ya da pati şişliği."
+ },
+ {
+  "id": "kopek-5-0",
+  "animal": "kopek",
+  "hash": "225de1e5e3d497f0",
+  "text": "Osteoartrit, eklem kireçlenmesi. Eklem kıkırdağı aşınır, eklem ağrılı ve sertleşir. Kalça/dirsek displazisi ve fazla kilo hızlandırır."
+ },
+ {
+  "id": "kopek-5-1",
+  "animal": "kopek",
+  "hash": "5859ae4022361fdf",
+  "text": "Belirtiler. Sabah ya da dinlenme sonrası tutukluk. Merdiven ve arabaya binmede isteksizlik. Topallama. Yürüyüşü yarıda bırakma, huysuzluk."
+ },
+ {
+  "id": "kopek-5-2",
+  "animal": "kopek",
+  "hash": "614faf7e7c14de4e",
+  "text": "Klinikte tedavi. Röntgen ile tanı. Veteriner kararıyla köpeğe özel ağrı kesici, NSAİİ, ya da anti-NGF antikor. Fizik tedavi, hidroterapi. Gerekirse cerrahi."
+ },
+ {
+  "id": "kopek-5-3",
+  "animal": "kopek",
+  "hash": "afe9f3a4b71cb20a",
+  "text": "Günlük hayatta yapılacaklar. Kilo vermek ağrıyı belirgin azaltır. Uzun bir yürüyüş yerine günde 3 kısa ve düzenli yürüyüş. Kaygan zemine halı yolluk serin; araç için rampa kullanın. Ortopedik yatak, sıcak ve cereyansız köşe. İnsan ağrı kesicisi, ibuprofen, parasetamol, vermeyin."
+ },
+ {
+  "id": "kopek-5-4",
+  "animal": "kopek",
+  "hash": "2bba73eb06e46bb9",
+  "text": "Acil durum. Ani ayağa kalkamama ya da bacağı hiç basmama."
+ },
+ {
+  "id": "kopek-6-0",
+  "animal": "kopek",
+  "hash": "8e5d0aa8dffd4dfb",
+  "text": "İshal ve kusma, enteropati. Çöp karıştırma, ani mama değişimi, parazit, parvovirüs gibi enfeksiyonlar ya da kronik bağırsak hastalığı."
+ },
+ {
+  "id": "kopek-6-1",
+  "animal": "kopek",
+  "hash": "5666c13cf7f50483",
+  "text": "Belirtiler. Sulu ya da sümüklü dışkı. Kusma. Çimen yeme, karın guruldaması. İştahsızlık, halsizlik."
+ },
+ {
+  "id": "kopek-6-2",
+  "animal": "kopek",
+  "hash": "efb46d6ec664ceea",
+  "text": "Klinikte tedavi. Dışkı testi ve parazit tedavisi. Sıvı tedavisi, bulantı ilacı. Kolay sindirilen mama ve probiyotik. Yavrularda parvo testi."
+ },
+ {
+  "id": "kopek-6-3",
+  "animal": "kopek",
+  "hash": "081759cc7323c518",
+  "text": "Günlük hayatta yapılacaklar. Mama değişimini 7 günde yapın. Çöp kutusunu kapalı tutun; yürüyüşte yerden yemeyi engelleyin. Bol taze su verin, küçük ve sık öğün. Üzüm, çikolata, soğan zehirlidir. Aşı ve iç parazit takvimine uyun."
+ },
+ {
+  "id": "kopek-6-4",
+  "animal": "kopek",
+  "hash": "8d3fbad02b1a2c91",
+  "text": "Acil durum. Kanlı ishal, durmayan kusma, karın şişliği ya da aşısız yavruda ishal."
+ },
+ {
+  "id": "kopek-7-0",
+  "animal": "kopek",
+  "hash": "e20a05f3ccd49c53",
+  "text": "Alerjik deri hastalığı, atopik dermatit. Ev tozu akarı, polen ve küf gibi alerjenlere genetik yatkınlık. Besin alerjisi ve pire alerjisi benzer tablo verir."
+ },
+ {
+  "id": "kopek-7-1",
+  "animal": "kopek",
+  "hash": "b9d0a423f54c03b8",
+  "text": "Belirtiler. Pati yalama, yüz ve koltuk altı kaşıma. Kızarık deri, koyulaşma. Tekrarlayan kulak iltihabı. Mevsimsel kötüleşme."
+ },
+ {
+  "id": "kopek-7-2",
+  "animal": "kopek",
+  "hash": "7c6b76fa0abcfa76",
+  "text": "Klinikte tedavi. Pire kontrolü ve 8 haftalık eliminasyon diyeti. Veteriner kararıyla kaşıntı kesici, oklasitinib, lokivetmab ya da kortikosteroid. Alerji testi ve immünoterapi. İlaçlı şampuan."
+ },
+ {
+  "id": "kopek-7-3",
+  "animal": "kopek",
+  "hash": "997c06a6d9014b2e",
+  "text": "Günlük hayatta yapılacaklar. Yürüyüş dönüşü patileri ıslak bezle silin. Evi günde 3 kez havalandırın, HEPA süpürge kullanın. Yatağını haftada 1 kez 60 derece'de yıkayın. Veterinerin önerdiği şampuanla 10 dakika bekleterek yıkayın. Omega-3 takviyesini veterinere sorun."
+ },
+ {
+  "id": "kopek-7-4",
+  "animal": "kopek",
+  "hash": "b897c297bc5d6edd",
+  "text": "Acil durum. Yüzde ani şişlik, nefes zorluğu."
+ },
+ {
+  "id": "kopek-8-0",
+  "animal": "kopek",
+  "hash": "9b96291caab1de9f",
+  "text": "Deri kitleleri, lipom ve diğer tümörler. Deri altındaki kitlelerin çoğu iyi huylu yağ tümörüdür, lipom, ama görünüşten anlaşılamaz."
+ },
+ {
+  "id": "kopek-8-1",
+  "animal": "kopek",
+  "hash": "fb4c82f5411c33a9",
+  "text": "Belirtiler. Deri altında yumuşak, hareketli şişlik. Hızla büyüyen ya da renk değiştiren kitle. Yara açılması. Kitleyi yalama."
+ },
+ {
+  "id": "kopek-8-2",
+  "animal": "kopek",
+  "hash": "71769f153a9f32d8",
+  "text": "Klinikte tedavi. İnce iğne aspirasyonu ile hücre incelemesi. Gerekirse biyopsi ve cerrahi alım. Kötü huylu ise evreleme."
+ },
+ {
+  "id": "kopek-8-3",
+  "animal": "kopek",
+  "hash": "138f806776a32edf",
+  "text": "Günlük hayatta yapılacaklar. Ayda bir köpeği baştan kuyruğa elle tarayın. Kitleyi cetvelle ölçüp tarih ve fotoğrafla not edin. İğne incelemesi yapılmamış kitleyi beklemeyin. Kilo kontrolü lipom büyümesini yavaşlatabilir."
+ },
+ {
+  "id": "kopek-8-4",
+  "animal": "kopek",
+  "hash": "312e16626a35cf1b",
+  "text": "Acil durum. Bir ay içinde büyüyen, sertleşen ya da kanayan kitle."
+ },
+ {
+  "id": "kopek-9-0",
+  "animal": "kopek",
+  "hash": "25e481a0b5dac2c8",
+  "text": "Göz hastalıkları, konjonktivit, kornea yarası. Göz zarı iltihabı, kornea çiziği ya da kuru göz. Basık yüzlü ırklarda kornea yaraları sık."
+ },
+ {
+  "id": "kopek-9-1",
+  "animal": "kopek",
+  "hash": "881a84525c577b53",
+  "text": "Belirtiler. Gözde kızarıklık ve akıntı. Gözü kısma, sürtme. Gözde bulanıklık. Sulanma."
+ },
+ {
+  "id": "kopek-9-2",
+  "animal": "kopek",
+  "hash": "b78f65d1928e8f59",
+  "text": "Klinikte tedavi. Floresein boya ile kornea testi, gözyaşı testi. Antibiyotik ya da gözyaşı artırıcı damla. Kornea yarasında koruyucu yaka."
+ },
+ {
+  "id": "kopek-9-3",
+  "animal": "kopek",
+  "hash": "32ac4cd20fb257f0",
+  "text": "Günlük hayatta yapılacaklar. Akıntıyı ılık suyla ıslatılmış ayrı pamuklarla her göz için ayrı silin. Araç camından baş çıkarmasına izin vermeyin. Göz çevresi kıllarını kısa tutun. Damla saatlerine uyun; elde kalan eski göz ilacını kullanmayın."
+ },
+ {
+  "id": "kopek-9-4",
+  "animal": "kopek",
+  "hash": "2862fed4d41fbff0",
+  "text": "Acil durum. Gözü açamama, gözde bulanık leke: aynı gün kontrol."
+ },
+ {
+  "id": "kus-0-0",
+  "animal": "kus",
+  "hash": "7611273b484fcdb5",
+  "text": "Beslenme bozuklukları, A vitamini ve kalsiyum eksikliği. Yalnızca tohumla beslenen kuşlarda A vitamini, kalsiyum ve iyot eksik kalır. Bağışıklık zayıflar, solunum ve deri sorunları artar."
+ },
+ {
+  "id": "kus-0-1",
+  "animal": "kus",
+  "hash": "3b9c0ae8f1ff5fe2",
+  "text": "Belirtiler. Mat, kırık tüyler. Burun deliği çevresinde kabuk, beyaz plaklar. Sık solunum enfeksiyonu. Gaga ve tırnakta uzama."
+ },
+ {
+  "id": "kus-0-2",
+  "animal": "kus",
+  "hash": "265d461f3d7c4d7d",
+  "text": "Klinikte tedavi. Kan testi ve diyet değerlendirmesi. Veteriner kararıyla vitamin-mineral desteği. Aşamalı pellet diyetine geçiş planı."
+ },
+ {
+  "id": "kus-0-3",
+  "animal": "kus",
+  "hash": "674e3aa38d70cbe6",
+  "text": "Günlük hayatta yapılacaklar. Diyetin yaklaşık yüzde 60 ile 70'ini pellet yapın, tohumu ödüle indirin. Her gün koyu yeşil yapraklı sebze, roka, maydanoz, verin; avokado zehirlidir. Geçişi 2 ile 4 haftaya yayın, kuşun yediğini her gün dışkıdan takip edin. Günde birkaç saat doğal ya da UV-B kuş lambası ışığı sağlayın."
+ },
+ {
+  "id": "kus-0-4",
+  "animal": "kus",
+  "hash": "078cee6ef4aea84a",
+  "text": "Acil durum. Tüyleri kabarık ve tünekte uyuklayan kuş: kuşlar hastalığı saklar, gecikmeyin."
+ },
+ {
+  "id": "kus-1-0",
+  "animal": "kus",
+  "hash": "9ac32c51fdc99734",
+  "text": "Tüy yolma davranışı. Kuşun kendi tüylerini koparması ya da kemirmesi. Sıkılma, yalnızlık, ayrılık kaygısı, beslenme ve deri hastalıkları neden olabilir."
+ },
+ {
+  "id": "kus-1-1",
+  "animal": "kus",
+  "hash": "3756858ee10343d3",
+  "text": "Belirtiler. Göğüs, kanat altı ve bacaklarda tüysüz alanlar. Kırık, çiğnenmiş tüyler. Sürekli tüy düzeltme. Çığlık atma."
+ },
+ {
+  "id": "kus-1-2",
+  "animal": "kus",
+  "hash": "a4e174230974e971",
+  "text": "Klinikte tedavi. Önce tıbbi nedenlerin taranması, parazit, enfeksiyon, kan testi. Davranış danışmanlığı. Seçilmiş olgularda veteriner kararıyla ilaç."
+ },
+ {
+  "id": "kus-1-3",
+  "animal": "kus",
+  "hash": "97db77f74fc29be1",
+  "text": "Günlük hayatta yapılacaklar. Kafeste her hafta değişen 3 ile 4 çiğneme oyuncağı bulundurun. Yiyeceği kağıda sarıp arama oyunu kurun. Günde en az 2 saat kafes dışında, gözetim altında vakit. Günde 10 ile 12 saat karanlık ve sessiz uyku sağlayın. Haftada birkaç kez ılık suyla püskürterek banyo yaptırın."
+ },
+ {
+  "id": "kus-1-4",
+  "animal": "kus",
+  "hash": "1c129eb92d826d64",
+  "text": "Acil durum. Deride açık yara ve kanama."
+ },
+ {
+  "id": "kus-2-0",
+  "animal": "kus",
+  "hash": "0dea4d3d172d9a06",
+  "text": "Solunum yolu enfeksiyonu, aspergilloz dahil. Bakteri ya da küf mantarı, Aspergillus, solunum yolunu tutar. Kötü havalandırma ve A vitamini eksikliği riski artırır."
+ },
+ {
+  "id": "kus-2-1",
+  "animal": "kus",
+  "hash": "3591ce793ddab986",
+  "text": "Belirtiler. Kuyruk sallayarak nefes alma. Hapşırma, burun akıntısı. Ses değişikliği. Ağız açık nefes."
+ },
+ {
+  "id": "kus-2-2",
+  "animal": "kus",
+  "hash": "482c34fadb0a0934",
+  "text": "Klinikte tedavi. Kan testi, röntgen, endoskopi. Veteriner kararıyla antibiyotik ya da antifungal. Nebulizasyon, buhar tedavisi."
+ },
+ {
+  "id": "kus-2-3",
+  "animal": "kus",
+  "hash": "3a84c4e6e18ac16d",
+  "text": "Günlük hayatta yapılacaklar. Kafesi mutfaktan uzak tutun; teflon tava dumanı kuşlar için ölümcüldür. Kafes tabanını her gün temizleyin, nemli ve küflü yemi atın. Odayı günde 3 kez havalandırın ama kafesi cereyana koymayın. Sigara, oda spreyi ve mum kullanmayın. Hasta kuşu 28 ile 30 derece sıcak bir alanda tutun."
+ },
+ {
+  "id": "kus-2-4",
+  "animal": "kus",
+  "hash": "09c3353ed0db94ed",
+  "text": "Acil durum. Ağız açık soluma ve tünekten düşme: aynı gün acil."
+ },
+ {
+  "id": "kus-3-0",
+  "animal": "kus",
+  "hash": "b4073d409cba680d",
+  "text": "Kursak iltihabı, Trichomonas. Trichomonas gallinae parazitinin kursakta yerleşmesi. Pozitif kuşların çoğu belirti göstermez ama genç kuşlarda kusma tipiktir."
+ },
+ {
+  "id": "kus-3-1",
+  "animal": "kus",
+  "hash": "a457a282516a43a3",
+  "text": "Belirtiler. Kusma, başı sallayarak yem fırlatma. Başta yapışkan tüyler. Kilo kaybı. Ağızda sarı-beyaz plaklar."
+ },
+ {
+  "id": "kus-3-2",
+  "animal": "kus",
+  "hash": "2b8f97aab7883b28",
+  "text": "Klinikte tedavi. Kursak yıkama örneğinde mikroskopik tanı. Veteriner reçetesiyle metronidazol grubu antiparaziter. Tüm kuş grubunun taranması."
+ },
+ {
+  "id": "kus-3-3",
+  "animal": "kus",
+  "hash": "a25fbc94a98f6f0a",
+  "text": "Günlük hayatta yapılacaklar. Su kabını her gün sıcak suyla fırçalayın. Kuşlar birbirini besleyerek bulaştırır; yeni kuşu 30 ile 45 gün ayrı tutun. Kafes aynasını kaldırın, aynaya kusarak besleme davranışı. Tedaviden 2 hafta sonra kontrole gidin."
+ },
+ {
+  "id": "kus-3-4",
+  "animal": "kus",
+  "hash": "d973d30fa666addc",
+  "text": "Acil durum. Kusma ve kabarık tüyle bitkinlik."
+ },
+ {
+  "id": "kus-4-0",
+  "animal": "kus",
+  "hash": "37a6981f7d16ff4f",
+  "text": "Mide mayası, Macrorhabdus, 'megabakteri'. Bezel midede yaşayan bir maya. Erkek muhabbet kuşlarında daha sık; kilo kaybına yol açar."
+ },
+ {
+  "id": "kus-4-1",
+  "animal": "kus",
+  "hash": "4ef64062134c6a23",
+  "text": "Belirtiler. Dışkıda sindirilmemiş tohum. Kilo kaybına rağmen iştahlı. Kusma. Kabarık tüy."
+ },
+ {
+  "id": "kus-4-2",
+  "animal": "kus",
+  "hash": "0cbd1cba98d8e2b2",
+  "text": "Klinikte tedavi. Taze dışkıda mikroskopik tanı. Veteriner kararıyla antifungal, amfoterisin B, kürü. Destek tedavisi ve sık kilo kontrolü."
+ },
+ {
+  "id": "kus-4-3",
+  "animal": "kus",
+  "hash": "f51d270d63ab1938",
+  "text": "Günlük hayatta yapılacaklar. Kuşu her hafta mutfak tartısıyla gram cinsinden tartın. Tedavi stresli olabilir; ilacı veren kişi sakin ve kısa tutsun. Dışkı kabını her gün değiştirin. Yeni kuşları karantinada test ettirin."
+ },
+ {
+  "id": "kus-4-4",
+  "animal": "kus",
+  "hash": "5c3b4dedffb38403",
+  "text": "Acil durum. Göğüs kemiği keskin hissediliyorsa, ciddi kilo kaybı."
+ },
+ {
+  "id": "kus-5-0",
+  "animal": "kus",
+  "hash": "3b02a74c4fdfcba6",
+  "text": "Psittakoz, Chlamydia psittaci. Bakteriyel bir enfeksiyon. Dışkı ve tüy tozuyla bulaşır; taşıyıcı kuş sağlıklı görünebilir. İnsanda ateşli zatürreye yol açabilir."
+ },
+ {
+  "id": "kus-5-1",
+  "animal": "kus",
+  "hash": "e2921f8c48871c49",
+  "text": "Belirtiler. Göz akıntısı, şişkin göz kapağı. Yeşil-sarı ishal. Burun akıntısı, hırıltı. Halsizlik."
+ },
+ {
+  "id": "kus-5-2",
+  "animal": "kus",
+  "hash": "d7a31d3cb31ad161",
+  "text": "Klinikte tedavi. PCR testi. Veteriner kararıyla uzun süreli doksisiklin tedavisi, genellikle 45 gün. Ev halkına doktor bilgilendirmesi."
+ },
+ {
+  "id": "kus-5-3",
+  "animal": "kus",
+  "hash": "5b9abbbdbd4b1369",
+  "text": "Günlük hayatta yapılacaklar. Kafesi temizlerken maske ve eldiven kullanın; temizlik öncesi tabanı nemlendirin, toz kalkmasın. Her temas sonrası ellerinizi yıkayın. Ateşli öksürük olursa doktorunuza kuşunuz olduğunu söyleyin. Yeni kuşu 30 gün karantinada tutun."
+ },
+ {
+  "id": "kus-5-4",
+  "animal": "kus",
+  "hash": "f4dba4de2a7aacc6",
+  "text": "Acil durum. Kuşta ağır ishal ve bitkinlik; evde biri ateşli öksürük yaşıyorsa doktora başvurun."
+ },
+ {
+  "id": "kus-6-0",
+  "animal": "kus",
+  "hash": "41f784ab3ee73605",
+  "text": "Yumurta bağlanması, distosi. Yumurta kanalda takılı kalır. Kalsiyum eksikliği, obezite, ilk yumurta ve aşırı yumurtlama risk etkenidir."
+ },
+ {
+  "id": "kus-6-1",
+  "animal": "kus",
+  "hash": "7f13b566c073a4b9",
+  "text": "Belirtiler. Kafes tabanında oturma, kuyruk sallama. Ikınma. Kalın, iri dışkı ya da dışkı yapamama. Karında şişlik."
+ },
+ {
+  "id": "kus-6-2",
+  "animal": "kus",
+  "hash": "ab311b10865dfd71",
+  "text": "Klinikte tedavi. Röntgen. Kalsiyum enjeksiyonu, sıvı, sıcak ve nemli ortam. Gerekirse yumurtanın veteriner tarafından alınması. Kronik yumurtlamada hormon tedavisi."
+ },
+ {
+  "id": "kus-6-3",
+  "animal": "kus",
+  "hash": "73258735a1f3311a",
+  "text": "Günlük hayatta yapılacaklar. Kalsiyum kaynağı olarak mürekkep balığı kemiği bulundurun. Gün ışığını 10 ile 12 saatle sınırlayarak yumurtlama uyarısını azaltın. Kafesten yuva, kutu ve yuva malzemesini kaldırın. Yumurtlayan dişinin yumurtasını hemen almayın; 21 gün bırakın."
+ },
+ {
+  "id": "kus-6-4",
+  "animal": "kus",
+  "hash": "d186351801715f18",
+  "text": "Acil durum. Ikınan kuş birkaç saat içinde yumurtlamazsa: aynı gün acil."
+ },
+ {
+  "id": "kus-7-0",
+  "animal": "kus",
+  "hash": "737134d727ba5873",
+  "text": "Gaga ve ayak uyuzu, Knemidocoptes. Akarlar gaga, göz çevresi ve ayak derisinde süngerimsi kabuklar yapar. Uzun sürerse gaga şekli bozulur."
+ },
+ {
+  "id": "kus-7-1",
+  "animal": "kus",
+  "hash": "c2770841b6d3c555",
+  "text": "Belirtiler. Gaga kenarında beyaz, süngerimsi kabuk. Bacak ve parmaklarda kabuklanma. Gagada şekil bozukluğu. Kaşınma."
+ },
+ {
+  "id": "kus-7-2",
+  "animal": "kus",
+  "hash": "a42d7c6749613303",
+  "text": "Klinikte tedavi. Kazıntı örneğiyle tanı. Veteriner kararıyla ivermektin ya da moksidektin uygulaması. Bozulmuş gaganın veterinerde düzeltilmesi."
+ },
+ {
+  "id": "kus-7-3",
+  "animal": "kus",
+  "hash": "eec2224d77e28e86",
+  "text": "Günlük hayatta yapılacaklar. Tedavi süresince ahşap tünek ve oyuncakları değiştirin ya da atın. Kafesi sıcak su ve deterjanla yıkayıp iyice kurutun. Evdeki diğer kuşları da muayene ettirin. Gagayı evde kesmeye çalışmayın."
+ },
+ {
+  "id": "kus-7-4",
+  "animal": "kus",
+  "hash": "bd4c51909f9d9a75",
+  "text": "Acil durum. Gaga şekli yemek yemeyi engelliyorsa."
+ },
+ {
+  "id": "kus-8-0",
+  "animal": "kus",
+  "hash": "2e1075f5f3abd0ed",
+  "text": "Guatr, iyot eksikliği. Yalnızca iyottan fakir tohumla beslenen kuşlarda tiroid bezi büyür, soluk borusuna ve yemek borusuna baskı yapar."
+ },
+ {
+  "id": "kus-8-1",
+  "animal": "kus",
+  "hash": "266f6247ff2c174d",
+  "text": "Belirtiler. Hırıltılı, ıslıklı nefes. Yutma güçlüğü, kusma. Ses değişikliği. Kilo kaybı."
+ },
+ {
+  "id": "kus-8-2",
+  "animal": "kus",
+  "hash": "55b0c92e705ab301",
+  "text": "Klinikte tedavi. Muayene ve röntgen. Veteriner kararıyla iyot desteği. Pellet diyete geçiş."
+ },
+ {
+  "id": "kus-8-3",
+  "animal": "kus",
+  "hash": "7eae214d57832170",
+  "text": "Günlük hayatta yapılacaklar. Pellet ağırlıklı diyet iyot ihtiyacını karşılar. İyot taşı ya da su katkısını veterinere danışmadan kullanmayın. Kuşun sesindeki değişimi kayda alıp veterinere götürün."
+ },
+ {
+  "id": "kus-8-4",
+  "animal": "kus",
+  "hash": "cfda36dd8861ffeb",
+  "text": "Acil durum. Ağız açık, ıslıklı nefes."
+ },
+ {
+  "id": "kus-9-0",
+  "animal": "kus",
+  "hash": "3f0607e878b6542b",
+  "text": "Yaralanma ve kırıklar. Pencereye çarpma, kafes teline takılma, diğer ev hayvanlarının saldırısı, tavan vantilatörü."
+ },
+ {
+  "id": "kus-9-1",
+  "animal": "kus",
+  "hash": "3ea519f2ded000da",
+  "text": "Belirtiler. Kanat sarkması. Tek ayakla basmama. Kanama, kan tüyü kırığı. Tünekten düşme."
+ },
+ {
+  "id": "kus-9-2",
+  "animal": "kus",
+  "hash": "883e55dce0efde48",
+  "text": "Klinikte tedavi. Röntgen, sargı ya da cerrahi. Ağrı kesici. Kırık kan tüyünün çekilmesi."
+ },
+ {
+  "id": "kus-9-3",
+  "animal": "kus",
+  "hash": "ae3a0b9184233806",
+  "text": "Günlük hayatta yapılacaklar. Uçuş öncesi tavan vantilatörünü kapatın, pencerelere çıkartma yapıştırın. Kedi ve köpekle kuşu asla gözetimsiz bırakmayın. Kafes tellerinde açılmış yer ve iplik oyuncak olmasın. Küçük kanamada tırnak/gaga için mısır nişastası bulundurun."
+ },
+ {
+  "id": "kus-9-4",
+  "animal": "kus",
+  "hash": "c78599af472a9c9d",
+  "text": "Acil durum. Durmayan kanama; kuşlarda az miktar kan kaybı bile tehlikelidir."
+ },
+ {
+  "id": "tavsan-0-0",
+  "animal": "tavsan",
+  "hash": "c92341a5d2ad969c",
+  "text": "Diş hastalığı, azı ve kesici diş uzaması. Tavşan dişleri ömür boyu uzar. Yeterli kuru ot yenmezse dişler aşınmaz, sivri uçlar yanak ve dile batar. Yaşla risk belirgin artar."
+ },
+ {
+  "id": "tavsan-0-1",
+  "animal": "tavsan",
+  "hash": "11c792b7acac335c",
+  "text": "Belirtiler. Seçici yeme, kuru otu reddetme. Salya, ıslak çene. Göz akıntısı, kök uzaması gözyaşı kanalına baskı yapar. Kilo kaybı, dışkı küçülmesi."
+ },
+ {
+  "id": "tavsan-0-2",
+  "animal": "tavsan",
+  "hash": "c268a585c9bc99c3",
+  "text": "Klinikte tedavi. Sedasyon altında otoskop ile ağız muayenesi ve röntgen. Azı dişlerinin törpülenmesi; gerekirse diş çekimi. Ağrı kesici ve sindirim desteği."
+ },
+ {
+  "id": "tavsan-0-3",
+  "animal": "tavsan",
+  "hash": "e3f180d3bd3f9b6d",
+  "text": "Günlük hayatta yapılacaklar. Diyetin en az yüzde 85'i sınırsız kuru ot, yonca otu değil, çayır otu, olsun. Pelleti günde 1 yemek kaşığı/kilogram ile sınırlayın; müsli karışımı vermeyin. Her gün bir avuç yeşillik verin. Haftada bir çene altını ve dışkı boyutunu kontrol edin. 3 ile 6 ayda bir diş muayenesi."
+ },
+ {
+  "id": "tavsan-0-4",
+  "animal": "tavsan",
+  "hash": "d997d6574405047d",
+  "text": "Acil durum. 12 saatten uzun yememe ya da dışkı yapmama."
+ },
+ {
+  "id": "tavsan-1-0",
+  "animal": "tavsan",
+  "hash": "1a753cc66cb25fea",
+  "text": "Tırnak uzaması. Ev ortamında yeterince kazıp koşamayan tavşanlarda tırnaklar uzar ve kıvrılır."
+ },
+ {
+  "id": "tavsan-1-1",
+  "animal": "tavsan",
+  "hash": "a2307feb3b5c614a",
+  "text": "Belirtiler. Zeminde tıkırtı. Patide yanlış basma. Kırık, kanayan tırnak. Pati tabanında yara."
+ },
+ {
+  "id": "tavsan-1-2",
+  "animal": "tavsan",
+  "hash": "b7e5a6d63d3ad978",
+  "text": "Klinikte tedavi. Tırnak kesimi. Kırık tırnakta kanama kontrolü."
+ },
+ {
+  "id": "tavsan-1-3",
+  "animal": "tavsan",
+  "hash": "2d2ea560ed362367",
+  "text": "Günlük hayatta yapılacaklar. 4 ile 6 haftada bir kesin; tavşanı havluya sarıp sakin tutun. Kazma kutusu ve sert zeminli alan sağlayın. Kesimi iki kişi yapın, tavşanı asla sırtüstü bayıltarak tutmayın."
+ },
+ {
+  "id": "tavsan-1-4",
+  "animal": "tavsan",
+  "hash": "dda02c00c23188d9",
+  "text": "Acil durum. Durmayan kanama ya da pati şişliği."
+ },
+ {
+  "id": "tavsan-2-0",
+  "animal": "tavsan",
+  "hash": "3fb36086c1b96a5d",
+  "text": "Perine kirlenmesi, kirli popo. Tavşan yumuşak dışkısını, sekotrof, yiyemezse popoda birikir. Obezite, diş ve eklem ağrısı, yanlış diyet neden olur. Sinek larvası riskini büyütür."
+ },
+ {
+  "id": "tavsan-2-1",
+  "animal": "tavsan",
+  "hash": "82e0b79a0ea23266",
+  "text": "Belirtiler. Kuyruk altında yapışmış dışkı. İdrar yanığı, kızarık deri. Kötü koku. Hareketsizlik."
+ },
+ {
+  "id": "tavsan-2-2",
+  "animal": "tavsan",
+  "hash": "416023068ead4939",
+  "text": "Klinikte tedavi. Bölgenin temizlenip tıraşlanması. Altta yatan nedenin, diş, kilo, artrit, tedavisi. Deri yanığına krem."
+ },
+ {
+  "id": "tavsan-2-3",
+  "animal": "tavsan",
+  "hash": "f5faef8451f2dd73",
+  "text": "Günlük hayatta yapılacaklar. Yazın günde 2 kez, kışın günde 1 kez popoyu kontrol edin. Kirlenmeyi ılık suyla nemli bezle temizleyip iyice kurulayın; tüm tavşanı yıkamayın. Kuru ot oranını artırın, şekerli ödülleri kesin. Altlığı her gün değiştirin."
+ },
+ {
+  "id": "tavsan-2-4",
+  "animal": "tavsan",
+  "hash": "044be6403e25e0c9",
+  "text": "Acil durum. Kirli bölgede kurtçuk görürseniz: dakikalar önemli, hemen acil."
+ },
+ {
+  "id": "tavsan-3-0",
+  "animal": "tavsan",
+  "hash": "92c0c45a0089cf5a",
+  "text": "Sindirim durgunluğu, GI staz. Bağırsak hareketi yavaşlar ya da durur. Ağrı, stres, düşük lifli diyet ve diş hastalığı tetikler."
+ },
+ {
+  "id": "tavsan-3-1",
+  "animal": "tavsan",
+  "hash": "1fee867f8a54f69e",
+  "text": "Belirtiler. Yemeyi bırakma. Dışkı küçülmesi ya da hiç olmaması. Kambur oturma, diş gıcırdatma, ağrı. Karında şişkinlik."
+ },
+ {
+  "id": "tavsan-3-2",
+  "animal": "tavsan",
+  "hash": "06dd566e955d460e",
+  "text": "Klinikte tedavi. Ağrı kesici, sıvı tedavisi. Bağırsak hareketini artıran ilaç, tıkanma yoksa. Şırıngayla yüksek lifli mama desteği. Röntgen ile tıkanma kontrolü."
+ },
+ {
+  "id": "tavsan-3-3",
+  "animal": "tavsan",
+  "hash": "88330f99de4edfee",
+  "text": "Günlük hayatta yapılacaklar. Kuru otu sınırsız ve taze tutun; tavşan günde kendi vücudu kadar ot yemeli. Günde en az 3 ile 4 saat serbest hareket alanı. Ani diyet değişimi yapmayın. Her sabah dışkı sayısını ve boyutunu gözle kontrol edin. Tavşanı yalnız tutmayın; uygun bir eş stres azaltır."
+ },
+ {
+  "id": "tavsan-3-4",
+  "animal": "tavsan",
+  "hash": "81c95b985af41585",
+  "text": "Acil durum. 6 ile 12 saat dışkı yoksa beklemeyin; tavşanda bu acildir."
+ },
+ {
+  "id": "tavsan-4-0",
+  "animal": "tavsan",
+  "hash": "3bb7f1ecfe042967",
+  "text": "Obezite. Pellet ve meyve fazlalığı, az hareket. Kirli popo, sinek larvası ve eklem sorununa zemin hazırlar."
+ },
+ {
+  "id": "tavsan-4-1",
+  "animal": "tavsan",
+  "hash": "3c94047b8bed009f",
+  "text": "Belirtiler. Kaburgalar hissedilmiyor. Gerdan altında büyük yağ katmanı. Popoyu temizleyememe. Hareketsizlik."
+ },
+ {
+  "id": "tavsan-4-2",
+  "animal": "tavsan",
+  "hash": "a9d0118eb48defeb",
+  "text": "Klinikte tedavi. Kondisyon skoru ve kilo hedefi. Diyet planı; açlık diyeti asla uygulanmaz."
+ },
+ {
+  "id": "tavsan-4-3",
+  "animal": "tavsan",
+  "hash": "050083a3ba90f59a",
+  "text": "Günlük hayatta yapılacaklar. Pelleti azaltın, otu sınırsız bırakın. Meyveyi haftada 1 ile 2 küçük dilimle sınırlayın. Tünel ve rampalarla günlük hareket alanı kurun. Ayda bir tartın."
+ },
+ {
+  "id": "tavsan-4-4",
+  "animal": "tavsan",
+  "hash": "ba17b4c489829825",
+  "text": "Acil durum. Kilo verirken yemeyi bırakma: GI staz riski."
+ },
+ {
+  "id": "tavsan-5-0",
+  "animal": "tavsan",
+  "hash": "eeb42d3cebe6ddc7",
+  "text": "Sinek larvası, myiasis. Sinekler kirli tüye yumurta bırakır; larvalar saatler içinde deriyi yer. Yaz aylarında risk en yüksek."
+ },
+ {
+  "id": "tavsan-5-1",
+  "animal": "tavsan",
+  "hash": "f96f03693064719a",
+  "text": "Belirtiler. Kuyruk altında kurtçuklar. Huzursuzluk ya da tam tersi çökkünlük. Kötü koku. Islak, kahverengi tüy."
+ },
+ {
+  "id": "tavsan-5-2",
+  "animal": "tavsan",
+  "hash": "4f68326bcd412adc",
+  "text": "Klinikte tedavi. Acil temizlik, larvaların alınması. Ağrı kesici, sıvı, antibiyotik. Veteriner kararıyla antiparaziter."
+ },
+ {
+  "id": "tavsan-5-3",
+  "animal": "tavsan",
+  "hash": "11d5fdd835a01a6a",
+  "text": "Günlük hayatta yapılacaklar. Yazın popoyu günde 2 kez kontrol edin. Kafes altlığını her gün değiştirin. Pencerelere sineklik takın. Veterinerinizden önleyici uygulama isteyin."
+ },
+ {
+  "id": "tavsan-5-4",
+  "animal": "tavsan",
+  "hash": "e8880f2a5f6db9ce",
+  "text": "Acil durum. Larva görüldüğü an: en yakın veteriner."
+ },
+ {
+  "id": "tavsan-6-0",
+  "animal": "tavsan",
+  "hash": "ba7f525a174b825e",
+  "text": "Göz akıntısı, gözyaşı kanalı tıkanıklığı. Çoğunlukla uzamış diş köklerinin gözyaşı kanalına baskısı ya da enfeksiyonla oluşur."
+ },
+ {
+  "id": "tavsan-6-1",
+  "animal": "tavsan",
+  "hash": "41eb124ebb86d701",
+  "text": "Belirtiler. Beyaz, koyu göz akıntısı. Göz altında ıslak ve yapışık tüy. Göz kızarıklığı. Göz altında kabuk."
+ },
+ {
+  "id": "tavsan-6-2",
+  "animal": "tavsan",
+  "hash": "68714c424d67ce75",
+  "text": "Klinikte tedavi. Diş röntgeni. Gözyaşı kanalının yıkanması. Antibiyotik göz damlası."
+ },
+ {
+  "id": "tavsan-6-3",
+  "animal": "tavsan",
+  "hash": "7c56dd5aff694890",
+  "text": "Günlük hayatta yapılacaklar. Göz çevresini ılık suyla nemli pamukla günde 2 kez silin. Toz kalkmayan kuru ot ve altlık kullanın. Diş hastalığı önlemlerini uygulayın."
+ },
+ {
+  "id": "tavsan-6-4",
+  "animal": "tavsan",
+  "hash": "18a3d2a49b4942af",
+  "text": "Acil durum. Gözde şişlik ya da göz yuvarlağının dışarı itilmesi."
+ },
+ {
+  "id": "tavsan-7-0",
+  "animal": "tavsan",
+  "hash": "585c1cfcef2e17d8",
+  "text": "Kulak hastalığı, iltihap ve kulak uyuzu. Sarkık kulaklarda kanal kıvrık olduğu için kir ve iltihap birikir. Psoroptes akarı kahverengi kabuklar yapar."
+ },
+ {
+  "id": "tavsan-7-1",
+  "animal": "tavsan",
+  "hash": "2ec53d2e112f3f63",
+  "text": "Belirtiler. Kulak kaşıma, baş sallama. Kulakta kahverengi kabuk. Kötü koku. Baş eğikliği, ilerlemiş."
+ },
+ {
+  "id": "tavsan-7-2",
+  "animal": "tavsan",
+  "hash": "74b8878d8cd0522d",
+  "text": "Klinikte tedavi. Otoskop ve kazıntı muayenesi. Veteriner kararıyla antiparaziter. Gerekirse kulak yıkama, ağrı kesici, ileri görüntüleme."
+ },
+ {
+  "id": "tavsan-7-3",
+  "animal": "tavsan",
+  "hash": "f8df177b3e308cce",
+  "text": "Günlük hayatta yapılacaklar. Kabukları evde koparmayın, çok acı verir. Altlığı her gün değiştirin, kafesi haftada bir dezenfekte edin. Sarkık kulaklı tavşanın kulaklarını haftada bir koklayıp bakın. Evdeki diğer tavşanları da tedavi ettirin."
+ },
+ {
+  "id": "tavsan-7-4",
+  "animal": "tavsan",
+  "hash": "ee5b7110c9764769",
+  "text": "Acil durum. Baş eğikliği ve dönerek yuvarlanma."
+ },
+ {
+  "id": "tavsan-8-0",
+  "animal": "tavsan",
+  "hash": "52e2ebb22d724c3e",
+  "text": "Solunum enfeksiyonu, snuffles. Çoğunlukla Pasteurella multocida. Tavşanlar burundan nefes alır; burun tıkanınca ciddi sorun olur."
+ },
+ {
+  "id": "tavsan-8-1",
+  "animal": "tavsan",
+  "hash": "6c5f128129df1c87",
+  "text": "Belirtiler. Hapşırma, ön patilerde ıslak tüy. Beyaz burun akıntısı. Hırıltılı nefes. Göz akıntısı."
+ },
+ {
+  "id": "tavsan-8-2",
+  "animal": "tavsan",
+  "hash": "f432f3afaf939ee9",
+  "text": "Klinikte tedavi. Kültür ve antibiyotik duyarlılığı. Veteriner kararıyla tavşana uygun antibiyotik. Nebulizasyon."
+ },
+ {
+  "id": "tavsan-8-3",
+  "animal": "tavsan",
+  "hash": "23c3827a0c2cc314",
+  "text": "Günlük hayatta yapılacaklar. Amonyak kokusunu önlemek için tuvalet köşesini her gün temizleyin. Tozsuz altlık, kağıt pelet, kullanın. Odayı havalandırın ama tavşanı cereyandan koruyun. Sigara ve oda spreyi kullanmayın."
+ },
+ {
+  "id": "tavsan-8-4",
+  "animal": "tavsan",
+  "hash": "058bde9344a34f9a",
+  "text": "Acil durum. Ağzından nefes alan tavşan: hemen acil."
+ },
+ {
+  "id": "tavsan-9-0",
+  "animal": "tavsan",
+  "hash": "97b4334824fb4b7f",
+  "text": "Pododermatit, ayak tabanı yarası. Arka ayak tabanında tüy aşınır, deri kızarır, yara ve apse oluşur. Tel zemin, sert zemin ve kilo neden olur."
+ },
+ {
+  "id": "tavsan-9-1",
+  "animal": "tavsan",
+  "hash": "c39ea3f8fe8af2b5",
+  "text": "Belirtiler. Arka ayak tabanında tüysüz, kızarık alan. Kabuk ya da açık yara. Ağırlığı öne verme. Hareket etmek istememe."
+ },
+ {
+  "id": "tavsan-9-2",
+  "animal": "tavsan",
+  "hash": "172cc497e3f45af9",
+  "text": "Klinikte tedavi. Yara temizliği ve pansuman. Ağrı kesici, gerekirse antibiyotik. İleri olgularda kemik röntgeni."
+ },
+ {
+  "id": "tavsan-9-3",
+  "animal": "tavsan",
+  "hash": "fb218d32c3d87fc9",
+  "text": "Günlük hayatta yapılacaklar. Tel zeminli kafesi kaldırın; yumuşak halı ya da keçe serin. Altlığı her gün kuru tutun. Kilo verdirin. Tırnakları düzenli kesin."
+ },
+ {
+  "id": "tavsan-9-4",
+  "animal": "tavsan",
+  "hash": "3c28242d9c5aff8a",
+  "text": "Acil durum. Ayakta şişlik, apse ya da kemik görünmesi."
+ },
+ {
+  "id": "hamster-0-0",
+  "animal": "hamster",
+  "hash": "813a0246b6439c55",
+  "text": "Islak kuyruk ve ishal. Kuyruk altının sulu dışkıyla ıslanması. Genç Suriye hamsterlerinde stresle tetiklenen bakteriyel bağırsak iltihabı, proliferatif ileit, en ağır biçimidir; birkaç gün içinde ölüme yol açabilir."
+ },
+ {
+  "id": "hamster-0-1",
+  "animal": "hamster",
+  "hash": "56db527030612705",
+  "text": "Belirtiler. Kuyruk altında ıslak, yapışık tüy. Sulu, kötü kokulu dışkı. Kambur duruş, hareketsizlik. Yemeyi ve su içmeyi bırakma."
+ },
+ {
+  "id": "hamster-0-2",
+  "animal": "hamster",
+  "hash": "ce4287a3c38a0f78",
+  "text": "Klinikte tedavi. Acil sıvı tedavisi ve ısı desteği. Veteriner kararıyla hamstere güvenli antibiyotik. Ağrı kesici ve besleme desteği."
+ },
+ {
+  "id": "hamster-0-3",
+  "animal": "hamster",
+  "hash": "63ac6b1e64f38109",
+  "text": "Günlük hayatta yapılacaklar. Yeni gelen hamsteri ilk 2 hafta mümkün olduğunca az taşıyın, kafesi sık değiştirmeyin. Kafesi sessiz bir odaya, güneş ve cereyandan uzağa koyun. Meyve ve sulu sebzeyi azaltın, temel yem kaliteli hamster peleti olsun. Su şişesini her gün yenileyin, ağzını fırçalayın. Hasta hamsteri diğerlerinden ayırıp ellerinizi yıkayın."
+ },
+ {
+  "id": "hamster-0-4",
+  "animal": "hamster",
+  "hash": "fd2f46695595bba9",
+  "text": "Acil durum. Islak kuyruk gördüğünüz gün: hamsterde saatler önemlidir."
+ },
+ {
+  "id": "hamster-1-0",
+  "animal": "hamster",
+  "hash": "7c6c4ef04d507aab",
+  "text": "Isırık yaraları ve apse. Suriye hamsterleri yalnız yaşayan hayvanlardır; ergenlikten sonra aynı kafeste kavga eder. Isırık derinin altında irin dolu apseye dönüşebilir."
+ },
+ {
+  "id": "hamster-1-1",
+  "animal": "hamster",
+  "hash": "c15bd69bcff8fdd4",
+  "text": "Belirtiler. Deride kabuklu yara, kan. Sıcak, yumuşak şişlik. Topallama. Halsizlik, iştahsızlık."
+ },
+ {
+  "id": "hamster-1-2",
+  "animal": "hamster",
+  "hash": "721620efa5d8be4c",
+  "text": "Klinikte tedavi. Apsenin açılıp yıkanması. Veteriner kararıyla antibiyotik ve ağrı kesici. Ağır yaralarda dikiş."
+ },
+ {
+  "id": "hamster-1-3",
+  "animal": "hamster",
+  "hash": "fd255d8c0b4dc580",
+  "text": "Günlük hayatta yapılacaklar. Suriye hamsterini her zaman tek başına barındırın. Cüce türleri birlikte tutuyorsanız 2 ayrı yuva, 2 tekerlek, 2 yemlik koyun. Yarayı veterinerin önerdiği solüsyonla günde 2 kez temizleyin. İyileşme sürecinde altlık olarak tozsuz kağıt kullanın."
+ },
+ {
+  "id": "hamster-1-4",
+  "animal": "hamster",
+  "hash": "dd1b68e516aeb083",
+  "text": "Acil durum. Yüzde ya da göz çevresinde hızla büyüyen şişlik."
+ },
+ {
+  "id": "hamster-2-0",
+  "animal": "hamster",
+  "hash": "3d5c9498d2d84950",
+  "text": "Tırnak uzaması. Yumuşak altlıkta yaşayan ve yaşlanan hamsterlerde tırnaklar aşınmaz, kıvrılıp yürümeyi bozar."
+ },
+ {
+  "id": "hamster-2-1",
+  "animal": "hamster",
+  "hash": "23bfc2c8eb1b767e",
+  "text": "Belirtiler. Kıvrık, uzun tırnaklar. Tırnağın altlığa takılması. Yürürken zorlanma. Tımarlanırken kendini çizme."
+ },
+ {
+  "id": "hamster-2-2",
+  "animal": "hamster",
+  "hash": "e1950e2b870d8325",
+  "text": "Klinikte tedavi. Veteriner tarafından tırnak kesimi. Kırık tırnakta kanama kontrolü."
+ },
+ {
+  "id": "hamster-2-3",
+  "animal": "hamster",
+  "hash": "c03d3d4aff827e7b",
+  "text": "Günlük hayatta yapılacaklar. Kafese yassı, pürüzlü bir taş ya da kiremit koyun; hamster üzerinde yürüdükçe tırnaklar aşınır. Kesimi evde yapacaksanız yalnızca uçtaki şeffaf kısmı alın. Kafes tabanında tel bölüm bırakmayın."
+ },
+ {
+  "id": "hamster-2-4",
+  "animal": "hamster",
+  "hash": "ad092509e799f835",
+  "text": "Acil durum. Durmayan tırnak kanaması."
+ },
+ {
+  "id": "hamster-3-0",
+  "animal": "hamster",
+  "hash": "49077c16653005cd",
+  "text": "Kesici diş uzaması. Hamster dişleri ömür boyu uzar. Kemirme yetersizse ya da dişler hizasız kapanıyorsa uzayıp ağız tavanına ve dudağa batar."
+ },
+ {
+  "id": "hamster-3-1",
+  "animal": "hamster",
+  "hash": "a765c95ba6622507",
+  "text": "Belirtiler. Ağızdan dışarı taşan uzun ya da eğri dişler. Yemi alıp bırakma. Kilo kaybı. Salya, ıslak çene."
+ },
+ {
+  "id": "hamster-3-2",
+  "animal": "hamster",
+  "hash": "0ab01f31ae495918",
+  "text": "Klinikte tedavi. Dişlerin veteriner tarafından düzgün kısaltılması, diş frezi ile. Ağızdaki yaraların tedavisi. Tekrarlıyorsa düzenli diş kontrolü."
+ },
+ {
+  "id": "hamster-3-3",
+  "animal": "hamster",
+  "hash": "8e042820e4786f9e",
+  "text": "Günlük hayatta yapılacaklar. Kafeste her zaman işlenmemiş ahşap çiğneme dalı bulundurun, elma, fındık dalı. Yumuşak yem değil, sert pelet ve kuru ot ağırlıklı besleyin. Haftada bir dudağını hafifçe kaldırıp dişlerine bakın. Kafes tellerini kemiriyorsa daha geniş kafes ve oyuncak verin; tel kemirmek dişleri kırar."
+ },
+ {
+  "id": "hamster-3-4",
+  "animal": "hamster",
+  "hash": "c2b069b526233325",
+  "text": "Acil durum. İki günden uzun yememe."
+ },
+ {
+  "id": "hamster-4-0",
+  "animal": "hamster",
+  "hash": "4b8481bf59d1821b",
+  "text": "Yaralanma ve kırıklar. Elden düşme, katlı kafeste yüksekten düşme, telli tekerleğe ayak sıkışması en sık nedenlerdir."
+ },
+ {
+  "id": "hamster-4-1",
+  "animal": "hamster",
+  "hash": "24df56949c70edfd",
+  "text": "Belirtiler. Bacağı yere basmama. Bacağın tuhaf açıyla durması. Şişlik, kanama. Saklanma, hareketsizlik."
+ },
+ {
+  "id": "hamster-4-2",
+  "animal": "hamster",
+  "hash": "a22627a80365feda",
+  "text": "Klinikte tedavi. Röntgen. Ağrı kesici ve kafes istirahati. Gerekirse sargı ya da cerrahi."
+ },
+ {
+  "id": "hamster-4-3",
+  "animal": "hamster",
+  "hash": "cca8bf8567567d8c",
+  "text": "Günlük hayatta yapılacaklar. Hamsteri yere yakın, oturarak tutun; çocuklar ayakta taşımasın. Tekerlek düz zeminli olsun, Suriye için en az 28 santimetre çap; telli tekerlek kullanmayın. Katlar arası yükseklik 20 santimetre'yi geçmesin. İyileşme sürecinde tek katlı, alçak bir kafese alın."
+ },
+ {
+  "id": "hamster-4-4",
+  "animal": "hamster",
+  "hash": "b66a4e059834aec7",
+  "text": "Acil durum. Açık kırık ya da durmayan kanama."
+ },
+ {
+  "id": "hamster-5-0",
+  "animal": "hamster",
+  "hash": "82403f70d8b3f8cb",
+  "text": "Karın kitlesi ve tümörler. Yaşlı hamsterlerde karın içi ve deri tümörleri, polikistik organlar sık görülür. Ortalama ömür yaklaşık 2 yıl olduğu için 1,5 yaş sonrası sık rastlanır."
+ },
+ {
+  "id": "hamster-5-1",
+  "animal": "hamster",
+  "hash": "6990cdba2e2fed19",
+  "text": "Belirtiler. Karında şişlik ya da sertlik. Deride büyüyen yumru. Kilo kaybı, sırtta kemik hissi. Halsizlik."
+ },
+ {
+  "id": "hamster-5-2",
+  "animal": "hamster",
+  "hash": "a4683929a8f1697e",
+  "text": "Klinikte tedavi. Muayene ve ultrason. Deri kitlelerinde uygunsa cerrahi alım. Ağrı kontrolü ve yaşam kalitesi değerlendirmesi."
+ },
+ {
+  "id": "hamster-5-3",
+  "animal": "hamster",
+  "hash": "83d0c8e2f365cbb2",
+  "text": "Günlük hayatta yapılacaklar. Haftada bir mutfak tartısıyla gram cinsinden tartın. Elinize aldığınızda karnını nazikçe yoklayın. Yaşlı hamsterde rampa ve yem kabını alçak tutun. Yumuşak yem, ıslatılmış pelet, ekleyerek kilo kaybını yavaşlatın."
+ },
+ {
+  "id": "hamster-5-4",
+  "animal": "hamster",
+  "hash": "967fc384a03dbb52",
+  "text": "Acil durum. Hızla büyüyen, kanayan kitle ya da nefes zorluğu."
+ },
+ {
+  "id": "hamster-6-0",
+  "animal": "hamster",
+  "hash": "1e4969763f96f890",
+  "text": "Göz iltihabı ve göz akıntısı. Toz, kirli altlık, enfeksiyon ya da diş kökü sorunu gözü iltihaplandırır. Hamster gözleri çıkıntılı olduğu için kolay yaralanır."
+ },
+ {
+  "id": "hamster-6-1",
+  "animal": "hamster",
+  "hash": "1fdc9b5af61e0b33",
+  "text": "Belirtiler. Gözde akıntı, yapışık göz kapakları. Kızarıklık. Gözü kısma. Göz yuvarlağının öne çıkması, acil."
+ },
+ {
+  "id": "hamster-6-2",
+  "animal": "hamster",
+  "hash": "9b5e7f839fae0140",
+  "text": "Klinikte tedavi. Muayene ve floresein testi. Antibiyotik göz damlası ya da merhemi. Göz dışarı fırlamışsa acil girişim."
+ },
+ {
+  "id": "hamster-6-3",
+  "animal": "hamster",
+  "hash": "68634f67d0418213",
+  "text": "Günlük hayatta yapılacaklar. Yapışık kapakları ılık suya batırılmış pamukla nazikçe açın. Toz yapan talaş yerine tozsuz kağıt altlık kullanın. Kafesi haftada bir kez komple, tuvalet köşesini her gün temizleyin. Hamsteri ensesinden sıkı tutmayın, göz dışarı fırlayabilir."
+ },
+ {
+  "id": "hamster-6-4",
+  "animal": "hamster",
+  "hash": "695eb4f3fdf46327",
+  "text": "Acil durum. Göz yuvarlağı yuvasından dışarı çıktıysa: hemen acil."
+ },
+ {
+  "id": "hamster-7-0",
+  "animal": "hamster",
+  "hash": "e53de34e0b55c013",
+  "text": "Uyuz akarları ve tüy dökülmesi. Demodeks akarları çoğu hamsterde sessizce yaşar; yaşlılık, stres ya da başka bir hastalık bağışıklığı düşürünce çoğalır."
+ },
+ {
+  "id": "hamster-7-1",
+  "animal": "hamster",
+  "hash": "d504e808ed8caa84",
+  "text": "Belirtiler. Sırtta ve arka bacaklarda tüy dökülmesi. Kepekli, kuru deri. Kaşınma. Deride kabuklar."
+ },
+ {
+  "id": "hamster-7-2",
+  "animal": "hamster",
+  "hash": "d5dc79ce91b4f751",
+  "text": "Klinikte tedavi. Deri kazıntısı ile tanı. Veteriner kararıyla hamstere uygun akar ilacı. Altta yatan hastalığın araştırılması."
+ },
+ {
+  "id": "hamster-7-3",
+  "animal": "hamster",
+  "hash": "85bbb9e2dea66ed8",
+  "text": "Günlük hayatta yapılacaklar. Köpek-kedi ürünlerini hamstere sürmeyin. Altlığı tamamen değiştirin, kafesi sıcak suyla yıkayıp kurutun. Stresi azaltın: gündüz uyurken uyandırmayın, kafesi gürültüden uzak tutun. Kum banyosu, çinçilla kumu, toz değil, tüy bakımına yardım eder."
+ },
+ {
+  "id": "hamster-7-4",
+  "animal": "hamster",
+  "hash": "e0c45ab30d87fd9a",
+  "text": "Acil durum. Açık yara ve iştahsızlık."
+ },
+ {
+  "id": "hamster-8-0",
+  "animal": "hamster",
+  "hash": "0dd784388d92cc43",
+  "text": "Solunum yolu enfeksiyonu. Soğuk ve cereyanlı ortam, amonyak kokusu ya da insandan bulaşan mikroplar burun ve akciğerleri tutar."
+ },
+ {
+  "id": "hamster-8-1",
+  "animal": "hamster",
+  "hash": "ec0bdfc924950eb1",
+  "text": "Belirtiler. Hapşırma, burun akıntısı. Hırıltılı nefes. Göz akıntısı. Kabarık tüy, halsizlik."
+ },
+ {
+  "id": "hamster-8-2",
+  "animal": "hamster",
+  "hash": "4967e02d7ffe59c7",
+  "text": "Klinikte tedavi. Veteriner kararıyla antibiyotik. Isı ve sıvı desteği. Nebulizasyon."
+ },
+ {
+  "id": "hamster-8-3",
+  "animal": "hamster",
+  "hash": "01561594f99b22b8",
+  "text": "Günlük hayatta yapılacaklar. Oda sıcaklığını 20 ile 24 derece arasında tutun. Kafesi pencere ve klima önüne koymayın. Tuvalet köşesini her gün temizleyin; amonyak kokusu akciğeri tahriş eder. Grip olduğunuzda hamsteri başkası beslesin. Parfüm ve oda spreyi kullanmayın."
+ },
+ {
+  "id": "hamster-8-4",
+  "animal": "hamster",
+  "hash": "9add2a90c0417522",
+  "text": "Acil durum. Ağız açık nefes alma."
+ },
+ {
+  "id": "hamster-9-0",
+  "animal": "hamster",
+  "hash": "cf21054dc7baa24c",
+  "text": "Yanak kesesi tıkanıklığı ve sarkması. Yapışkan ya da sivri yiyecekler keseye takılır, kese iltihaplanır ya da ağızdan dışarı sarkar."
+ },
+ {
+  "id": "hamster-9-1",
+  "animal": "hamster",
+  "hash": "10516f6e8dcd0932",
+  "text": "Belirtiler. Yanakta günlerce inmeyen şişlik. Ağızdan sarkan pembe doku. Kötü koku. Yemeyi bırakma."
+ },
+ {
+  "id": "hamster-9-2",
+  "animal": "hamster",
+  "hash": "8875fef71f0d90d1",
+  "text": "Klinikte tedavi. Kesenin anestezi altında boşaltılıp yıkanması. Sarkmada kesenin yerine yerleştirilmesi ya da cerrahi. Antibiyotik ve ağrı kesici."
+ },
+ {
+  "id": "hamster-9-3",
+  "animal": "hamster",
+  "hash": "3c881d341b8841e7",
+  "text": "Günlük hayatta yapılacaklar. Çikolata, karamel, kuru meyve gibi yapışkan yiyecekleri vermeyin. Kabuklu çekirdek ve sivri parçalardan kaçının. Pamuk benzeri yuva malzemesi yerine sade kağıt kullanın. Yanak 24 saatten uzun şişkinse veterinere gidin."
+ },
+ {
+  "id": "hamster-9-4",
+  "animal": "hamster",
+  "hash": "b48e0b7de70e0a70",
+  "text": "Acil durum. Ağızdan sarkan doku: kurumadan hemen veterinere."
+ },
+ {
+  "id": "kaplumbaga-0-0",
+  "animal": "kaplumbaga",
+  "hash": "e9418c48f4e65292",
+  "text": "Gaga uzaması. Yumuşak yiyeceklerle beslenen kaplumbağada gaga aşınmaz, kanca gibi uzar. Çoğu zaman beslenme ve kalsiyum sorununa işaret eder."
+ },
+ {
+  "id": "kaplumbaga-0-1",
+  "animal": "kaplumbaga",
+  "hash": "a2e39e0c8a55a6a8",
+  "text": "Belirtiler. Üst gagada kanca gibi uzama. Yemi ısıramama. Kilo kaybı. Gagada çatlak, katman ayrılması."
+ },
+ {
+  "id": "kaplumbaga-0-2",
+  "animal": "kaplumbaga",
+  "hash": "7f8f5d59016670d8",
+  "text": "Klinikte tedavi. Veteriner tarafından gaganın törpülenmesi. Kalsiyum ve UV-B koşullarının değerlendirilmesi."
+ },
+ {
+  "id": "kaplumbaga-0-3",
+  "animal": "kaplumbaga",
+  "hash": "22d1eee77ffebdad",
+  "text": "Günlük hayatta yapılacaklar. Kara kaplumbağasına marul ve meyve yerine yabani otlar, karahindiba, sinirotu, gelincik yaprağı, verin. Yemi taş ya da sert zemine koyun, yerken gaga aşınsın. Kalsiyum için mürekkep balığı kemiği bulundurun. Gagayı evde kesmeye çalışmayın."
+ },
+ {
+  "id": "kaplumbaga-0-4",
+  "animal": "kaplumbaga",
+  "hash": "9be10eb93cef1d7b",
+  "text": "Acil durum. Hiç yememe ya da gagada kanama."
+ },
+ {
+  "id": "kaplumbaga-1-0",
+  "animal": "kaplumbaga",
+  "hash": "b76810f0eddccbcb",
+  "text": "Tırnak uzaması. Yumuşak zemin ve az hareket tırnakların aşınmasını engeller."
+ },
+ {
+  "id": "kaplumbaga-1-1",
+  "animal": "kaplumbaga",
+  "hash": "35f302119fbd0017",
+  "text": "Belirtiler. Kıvrık uzun tırnaklar. Yürürken bacağın yana kayması. Tırnak kırılması."
+ },
+ {
+  "id": "kaplumbaga-1-2",
+  "animal": "kaplumbaga",
+  "hash": "8075388178aaba9a",
+  "text": "Klinikte tedavi. Tırnak kesimi. Bacak ve eklem kontrolü."
+ },
+ {
+  "id": "kaplumbaga-1-3",
+  "animal": "kaplumbaga",
+  "hash": "92da906d4663904d",
+  "text": "Günlük hayatta yapılacaklar. Barınağın bir bölümüne kazınabilir toprak, bir bölümüne düz taş koyun. Havalar uygunsa günde birkaç saat dışarıda güvenli alanda yürütün. Su kaplumbağasında sert taş zemin ve kara alanı sağlayın."
+ },
+ {
+  "id": "kaplumbaga-1-4",
+  "animal": "kaplumbaga",
+  "hash": "ecedda5a3808c6e8",
+  "text": "Acil durum. Tırnak dibinde şişlik ya da kanama."
+ },
+ {
+  "id": "kaplumbaga-2-0",
+  "animal": "kaplumbaga",
+  "hash": "084fad931b88e203",
+  "text": "Kabuk bozukluğu, metabolik kemik hastalığı. UV-B ışığı ve kalsiyum yetersiz olunca kemik ve kabuk yumuşar. Kabukta piramitleşme, tümsekleşme, ve şekil bozukluğu oluşur."
+ },
+ {
+  "id": "kaplumbaga-2-1",
+  "animal": "kaplumbaga",
+  "hash": "d4b37eed68316e4a",
+  "text": "Belirtiler. Bastırınca yumuşak kabuk. Kabuk plakalarında tümsekleşme. Bacaklarda güçsüzlük. Gaga ve tırnak uzaması."
+ },
+ {
+  "id": "kaplumbaga-2-2",
+  "animal": "kaplumbaga",
+  "hash": "fe1ca42b11f6ba9f",
+  "text": "Klinikte tedavi. Röntgen ve kan kalsiyum ölçümü. Veteriner kararıyla kalsiyum ve D3 desteği. Barınma koşullarının düzeltilmesi."
+ },
+ {
+  "id": "kaplumbaga-2-3",
+  "animal": "kaplumbaga",
+  "hash": "bda5be07ab17d1b8",
+  "text": "Günlük hayatta yapılacaklar. UV-B lambası kullanın ve 6 ile 12 ayda bir değiştirin, ışık verse de UV biter. Lambayı cam arkasına koymayın; cam UV-B'yi geçirmez. Günde 10 ile 12 saat ışık, sıcak noktada 30 ile 35 derece. Yemin üstüne haftada 2 ile 3 kez kalsiyum tozu serpin. Yazın güneşli günlerde doğrudan güneşe çıkarın, gölge alanı bırakarak."
+ },
+ {
+  "id": "kaplumbaga-2-4",
+  "animal": "kaplumbaga",
+  "hash": "067d817fde8ff086",
+  "text": "Acil durum. Kabuğun ezilir gibi yumuşaması ya da yürüyememe."
+ },
+ {
+  "id": "kaplumbaga-3-0",
+  "animal": "kaplumbaga",
+  "hash": "0a9dd69bf373e066",
+  "text": "A vitamini eksikliği. Yalnızca kurutulmuş karides ya da tek tip yemle beslenen su kaplumbağalarında görülür. Gözler ve solunum yolu ilk etkilenen yerlerdir."
+ },
+ {
+  "id": "kaplumbaga-3-1",
+  "animal": "kaplumbaga",
+  "hash": "04956195236da9e4",
+  "text": "Belirtiler. Şiş, kapalı göz kapakları. Göremediği için yememe. Burun akıntısı. Kulak bölgesinde şişlik."
+ },
+ {
+  "id": "kaplumbaga-3-2",
+  "animal": "kaplumbaga",
+  "hash": "f14c08d7de70f01d",
+  "text": "Klinikte tedavi. Veteriner kararıyla A vitamini tedavisi, fazlası zehirlidir, doz veterinerin. Göz damlası. Diyet değişikliği."
+ },
+ {
+  "id": "kaplumbaga-3-3",
+  "animal": "kaplumbaga",
+  "hash": "4312a4ce96e3e33d",
+  "text": "Günlük hayatta yapılacaklar. Kaliteli su kaplumbağası peleti ana yem olsun; kurutulmuş karides yalnızca ödül. Haftada birkaç kez koyu yeşil yapraklı sebze, roka, karahindiba, suya bırakın. Evde vitamin takviyesini kendi başınıza vermeyin. Su filtresini çalıştırın, suyun yarısını haftada bir değiştirin."
+ },
+ {
+  "id": "kaplumbaga-3-4",
+  "animal": "kaplumbaga",
+  "hash": "42452de99aebe699",
+  "text": "Acil durum. Gözler tamamen kapandı ve 1 haftadır yemiyorsa."
+ },
+ {
+  "id": "kaplumbaga-4-0",
+  "animal": "kaplumbaga",
+  "hash": "f887c6c2290eb2e5",
+  "text": "Alt kabuk, plastron, yaraları ve kabuk çürümesi. Kirli su, kuruyamama ve sert zeminde sürtünme alt kabukta bakteri ve mantar enfeksiyonuna yol açar."
+ },
+ {
+  "id": "kaplumbaga-4-1",
+  "animal": "kaplumbaga",
+  "hash": "7862a31d2fa1e51f",
+  "text": "Belirtiler. Alt kabukta beyaz, yumuşak ya da kötü kokulu lekeler. Kabuk plakalarının altında sıvı. Kabukta çukurlaşma. Kırmızı damarlanma."
+ },
+ {
+  "id": "kaplumbaga-4-2",
+  "animal": "kaplumbaga",
+  "hash": "f96fae0ba5d03981",
+  "text": "Klinikte tedavi. Ölü dokunun veteriner tarafından temizlenmesi. Antiseptik ve gerekirse antibiyotik. Kuru tutma, kuru tedavi, protokolü."
+ },
+ {
+  "id": "kaplumbaga-4-3",
+  "animal": "kaplumbaga",
+  "hash": "1b4574119820097d",
+  "text": "Günlük hayatta yapılacaklar. Akvaryumda tamamen çıkıp kuruyabileceği, ısı lambası altında bir kara alanı sağlayın. Filtreyi her zaman çalıştırın, suyun pH ve kokusunu takip edin. Akvaryumda sivri taş ve dekor bırakmayın. Veterinerin önerdiği kuru tutma saatlerine uyun."
+ },
+ {
+  "id": "kaplumbaga-4-4",
+  "animal": "kaplumbaga",
+  "hash": "1b416a5ed48e1e29",
+  "text": "Acil durum. Kabukta delik açılması ya da kan."
+ },
+ {
+  "id": "kaplumbaga-5-0",
+  "animal": "kaplumbaga",
+  "hash": "12c802b624288aa7",
+  "text": "İştahsızlık, kış uykusu sonrası dahil. Kaplumbağalar soğukkanlıdır; ortam soğuksa sindirim durur. Kış uykusundan sonra yememe, kış uykusuna hasta ya da zayıf girmekle ilişkilidir."
+ },
+ {
+  "id": "kaplumbaga-5-1",
+  "animal": "kaplumbaga",
+  "hash": "e7ac5fdd3d89fd39",
+  "text": "Belirtiler. Günlerce yememe. Gözlerin çökük olması. Hareketsizlik. Göz ve burunda kabuklanma."
+ },
+ {
+  "id": "kaplumbaga-5-2",
+  "animal": "kaplumbaga",
+  "hash": "1bc7b3ca97e0ce18",
+  "text": "Klinikte tedavi. Kan testi, böbrek ve karaciğer değerlendirmesi. Sıvı tedavisi. Gerekirse sondayla besleme."
+ },
+ {
+  "id": "kaplumbaga-5-3",
+  "animal": "kaplumbaga",
+  "hash": "c509ecb738500f5a",
+  "text": "Günlük hayatta yapılacaklar. Kış uykusundan çıkınca her gün 20 dakika ılık, yaklaşık 28 derece, suyla banyo yaptırın, su içmeye teşvik eder. Kış uykusundan önce veteriner kontrolü yaptırın ve kilo tartın. Kış uykusunda buzdolabı yöntemi kullanacaksanız sıcaklığı 5 derece'de sabit tutun. Uykudan çıktıktan 1 hafta sonra yemiyorsa beklemeyin."
+ },
+ {
+  "id": "kaplumbaga-5-4",
+  "animal": "kaplumbaga",
+  "hash": "4630a9cdda436c77",
+  "text": "Acil durum. Kış uykusundan çıktıktan sonra 7 gün yemek yememe."
+ },
+ {
+  "id": "kaplumbaga-6-0",
+  "animal": "kaplumbaga",
+  "hash": "e6df5da5876fa84a",
+  "text": "Kloak prolapsusu. Kuyruk altından bağırsak, mesane, üreme organı ya da kloak dokusunun dışarı çıkması. Kabızlık, mesane taşı, kalsiyum eksikliği ve yumurta tutulması neden olabilir."
+ },
+ {
+  "id": "kaplumbaga-6-1",
+  "animal": "kaplumbaga",
+  "hash": "cdfbd18f7ad8e682",
+  "text": "Belirtiler. Kuyruk altında kırmızı ya da mor doku. Ikınma. Dokuyu sürükleme. Halsizlik."
+ },
+ {
+  "id": "kaplumbaga-6-2",
+  "animal": "kaplumbaga",
+  "hash": "cd7d18e2d28691a6",
+  "text": "Klinikte tedavi. Acil muayene, dokunun yerine konması. Altta yatan nedenin, taş, yumurta, tedavisi. Gerekirse cerrahi."
+ },
+ {
+  "id": "kaplumbaga-6-3",
+  "animal": "kaplumbaga",
+  "hash": "b2d199508d35ba97",
+  "text": "Günlük hayatta yapılacaklar. Dışarı çıkan dokuyu ıslak, temiz bir bezle nemli tutun ve hemen veterinere götürün. Diğer kaplumbağalardan ayırın, dokuyu ısırabilirler. Önlem için günlük ılık banyo ve lifli, yeşillik ağırlıklı diyet uygulayın."
+ },
+ {
+  "id": "kaplumbaga-6-4",
+  "animal": "kaplumbaga",
+  "hash": "cb51926fada53607",
+  "text": "Acil durum. Doku dışarıdaysa: aynı saat içinde veteriner."
+ },
+ {
+  "id": "kaplumbaga-7-0",
+  "animal": "kaplumbaga",
+  "hash": "94341742db139ccd",
+  "text": "Solunum yolu enfeksiyonu, zatürre. Düşük ortam sıcaklığı bağışıklığı zayıflatır. Su kaplumbağasında yan yatarak yüzme tipik bir bulgudur."
+ },
+ {
+  "id": "kaplumbaga-7-1",
+  "animal": "kaplumbaga",
+  "hash": "2624c483d50713f6",
+  "text": "Belirtiler. Ağız açık nefes, hırıltı. Burunda köpüklü akıntı. Su kaplumbağasında yana yatarak yüzme. İştahsızlık."
+ },
+ {
+  "id": "kaplumbaga-7-2",
+  "animal": "kaplumbaga",
+  "hash": "d3561c4a4868a9be",
+  "text": "Klinikte tedavi. Röntgen. Veteriner kararıyla antibiyotik, çoğunlukla enjeksiyon. Isı desteği."
+ },
+ {
+  "id": "kaplumbaga-7-3",
+  "animal": "kaplumbaga",
+  "hash": "f3fb1eebc5ca27e6",
+  "text": "Günlük hayatta yapılacaklar. Sıcak nokta 30 ile 35 derece, serin taraf 20 ile 24 derece olsun; termometre kullanın. Su kaplumbağasında su sıcaklığı 24 ile 27 derece. Cereyan ve pencere kenarından uzak tutun. Akşamları sıcaklık düşüşünü kontrol edin."
+ },
+ {
+  "id": "kaplumbaga-7-4",
+  "animal": "kaplumbaga",
+  "hash": "a0e12a1040d9b688",
+  "text": "Acil durum. Ağız açık nefes ya da yana yatarak yüzme."
+ },
+ {
+  "id": "kaplumbaga-8-0",
+  "animal": "kaplumbaga",
+  "hash": "138d8574b27e2adb",
+  "text": "Yumurta tutulması. Uygun yumurtlama alanı yoksa ya da kalsiyum eksikse dişi yumurtalarını bırakamaz. Erkek olmasa da yumurta oluşabilir."
+ },
+ {
+  "id": "kaplumbaga-8-1",
+  "animal": "kaplumbaga",
+  "hash": "7c8f9af89741d397",
+  "text": "Belirtiler. Huzursuzca kazma ama yumurtlamama. Arka bacakları gerip ıkınma. İştahsızlık. Kloak sıvısı."
+ },
+ {
+  "id": "kaplumbaga-8-2",
+  "animal": "kaplumbaga",
+  "hash": "8c7274bd2856fd1d",
+  "text": "Klinikte tedavi. Röntgen ile yumurta kontrolü. Kalsiyum ve yumurtlamayı uyaran ilaç. Gerekirse cerrahi."
+ },
+ {
+  "id": "kaplumbaga-8-3",
+  "animal": "kaplumbaga",
+  "hash": "172519bb3ff110bc",
+  "text": "Günlük hayatta yapılacaklar. Barınakta en az kabuk boyunun 1,5 katı derinlikte nemli toprak-kum karışımı alan bulundurun. Su kaplumbağasına kuru, kazınabilir bir yumurtlama kutusu koyun. Kalsiyum desteğini aksatmayın. Yumurtlayan dişiyi sessiz bırakın."
+ },
+ {
+  "id": "kaplumbaga-8-4",
+  "animal": "kaplumbaga",
+  "hash": "e1883bf00ba68f5a",
+  "text": "Acil durum. 48 saatten uzun ıkınma."
+ },
+ {
+  "id": "kaplumbaga-9-0",
+  "animal": "kaplumbaga",
+  "hash": "fb6ee6f933228c06",
+  "text": "Hayvan ısırığı ve kabuk kırığı. Bahçedeki köpek ve fare saldırıları, düşme ya da araç ezilmesi kabuğu kırar. Kabuk canlı dokudur, kırığı enfeksiyona açıktır."
+ },
+ {
+  "id": "kaplumbaga-9-1",
+  "animal": "kaplumbaga",
+  "hash": "ffc31ad9cc3f6c92",
+  "text": "Belirtiler. Kabukta çatlak ya da kırık. Kanama. Bacak ya da kafada eksik doku. Hareket etmeme."
+ },
+ {
+  "id": "kaplumbaga-9-2",
+  "animal": "kaplumbaga",
+  "hash": "dbe437a95701df3a",
+  "text": "Klinikte tedavi. Yara temizliği ve kabuğun sabitlenmesi. Ağrı kesici ve antibiyotik. Kırık kabuk aylar içinde iyileşir, düzenli kontrol gerekir."
+ },
+ {
+  "id": "kaplumbaga-9-3",
+  "animal": "kaplumbaga",
+  "hash": "5cabe2539c6d58f3",
+  "text": "Günlük hayatta yapılacaklar. Bahçede kaplumbağa alanını tel örgü ve üstten ağla koruyun. Köpekle kaplumbağayı gözetimsiz bir arada bırakmayın. Kırık kabuğu yapıştırıcıyla kendiniz kapatmaya çalışmayın. İyileşme sürecinde temiz, kuru ve sinekten korunan bir kutuda tutun."
+ },
+ {
+  "id": "kaplumbaga-9-4",
+  "animal": "kaplumbaga",
+  "hash": "abb11f49755e9252",
+  "text": "Acil durum. Kabuktan kanama ya da iç doku görünüyorsa."
+ }
+]
