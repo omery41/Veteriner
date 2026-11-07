@@ -109,6 +109,14 @@ details.src{background:var(--surface);border:1px solid var(--line);border-radius
 details.src summary{cursor:pointer;font-weight:700}
 details.src ol{padding-left:18px;margin:10px 0 0;font-size:13.5px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
 details.src a{color:var(--pine)}
+details.ver{font-size:12px;color:var(--muted);align-self:center;text-align:center;max-width:560px;width:100%}
+details.ver summary{cursor:pointer;list-style:none;opacity:.75;padding:4px}
+details.ver summary::-webkit-details-marker{display:none}
+details.ver summary:hover{opacity:1;text-decoration:underline}
+details.ver .notes{text-align:left;margin-top:8px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 16px;display:flex;flex-direction:column;gap:10px}
+details.ver h4{margin:0;font-size:13px;color:var(--ink);font-variant-numeric:tabular-nums}
+details.ver h4 span{font-weight:400;color:var(--muted)}
+details.ver ul{margin:4px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:2px}
 .disc{font-size:12.5px;color:var(--muted);border-left:3px solid var(--accent);padding-left:10px}
 /* hayvan çizimleri */
 .ani .fur{fill:var(--fur)} .ani .fur2{fill:var(--fur2)} .ani .belly{fill:var(--fur3)}
@@ -213,6 +221,24 @@ details.src a{color:var(--pine)}
       <li>Hornby JM, Hedley J, Brodbelt DC, Church DB, O'Neill DG (2025) Demography, commonly recorded disorders and mortality in chelonia under UK primary veterinary care: A VetCompass study. <i>PLOS One</i>. doi:10.1371/journal.pone.0321038</li>
       <li>Kuş hastanesi kesitsel çalışması (836 olgu): beslenme %52, solunum %21, yaralanma %18, tüy yolma %10. UNAM tez deposu.</li>
     </ol>
+  </details>
+
+  <details class="ver" id="ver">
+    <summary>Sürüm 1.2.0</summary>
+    <div class="notes">
+      <div><h4>1.2.0 <span>· 8 Kasım 2026</span></h4>
+        <ul><li>Sürüm bilgisi ve sürüm notları eklendi.</li></ul></div>
+      <div><h4>1.1.0 <span>· 8 Kasım 2026</span></h4>
+        <ul><li>Hamster ve kaplumbağa eklendi, her birinde 10 hastalık.</li>
+        <li>Ses artık hastalık seçilince kendiliğinden başlamıyor.</li>
+        <li>Alttaki ses butonu kaldırıldı; animasyonun üstüne "Sesi oynat" butonu geldi.</li>
+        <li>Cihazdaki en doğal Türkçe ses seçiliyor, metin cümle cümle okunuyor.</li>
+        <li>Kaynaklara hamster (2022) ve kaplumbağa (2025) VetCompass çalışmaları eklendi.</li></ul></div>
+      <div><h4>1.0.0 <span>· 7 Kasım 2026</span></h4>
+        <ul><li>İlk sürüm: kedi, köpek, kuş ve tavşan için 10'ar hastalık.</li>
+        <li>Her hastalık için 5 bölümlü animasyonlu anlatım: tanım, belirtiler, klinik tedavi, evde bakım, acil durum.</li>
+        <li>Akademik kaynak listesi.</li></ul></div>
+    </div>
   </details>
 </div>
 
