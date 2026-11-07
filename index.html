@@ -69,7 +69,14 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-off
 .ditem small{color:var(--muted);font-size:12.5px}
 .ditem .play{width:30px;height:30px;border-radius:50%;background:var(--accent);display:grid;place-items:center}
 .note{font-size:12.5px;color:var(--muted);margin-top:10px}
-/* oynatıcı */
+/* oynatıcı: hastalık seçilince ekranın tamamını kaplayan katman olarak açılır */
+#viewPlayer{position:fixed;inset:0;z-index:50;background:var(--bg);overflow-y:auto;-webkit-overflow-scrolling:touch;display:flex;flex-direction:column;gap:12px;
+  padding-top:max(12px,env(safe-area-inset-top,0px));padding-bottom:max(20px,env(safe-area-inset-bottom,0px));
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+#viewPlayer > *{width:100%;max-width:1080px;margin-inline:auto}
+#viewPlayer .back{width:auto;margin-inline:0 auto;align-self:auto}
+@media (min-width:1112px){#viewPlayer .back{margin-left:calc((100% - 1080px)/2)}}
+body.noscroll{overflow:hidden}
 .player{background:var(--surface);border:1px solid var(--line);border-radius:22px;overflow:hidden}
 .pgrid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);min-height:380px}
 @media (max-width:760px){.pgrid{grid-template-columns:1fr}}
@@ -185,7 +192,7 @@ details.ver ul{margin:4px 0 0;padding-left:18px;display:flex;flex-direction:colu
 
   <section id="viewPlayer" hidden>
     <button class="back" id="backBtn">← Hastalık listesine dön</button>
-    <div class="player" style="margin-top:12px">
+    <div class="player">
       <div class="pgrid">
         <div class="stage" id="stage"></div>
         <div class="copy" id="copy" aria-live="polite"></div>
@@ -224,8 +231,10 @@ details.ver ul{margin:4px 0 0;padding-left:18px;display:flex;flex-direction:colu
   </details>
 
   <details class="ver" id="ver">
-    <summary>Sürüm 1.2.0</summary>
+    <summary>Sürüm 1.2.1</summary>
     <div class="notes">
+      <div><h4>1.2.1 <span>· 8 Kasım 2026</span></h4>
+        <ul><li>Hastalık seçilince anlatım sayfanın altında değil, ekranın tamamında açılıyor.</li></ul></div>
       <div><h4>1.2.0 <span>· 8 Kasım 2026</span></h4>
         <ul><li>Sürüm bilgisi ve sürüm notları eklendi.</li></ul></div>
       <div><h4>1.1.0 <span>· 8 Kasım 2026</span></h4>
@@ -782,8 +791,8 @@ function openPlayer(i){
   $("#track").innerHTML=scenes.map((s,j)=>`<button class="seg ${s.alarm?"alarmseg":""}" data-j="${j}" aria-label="${s.k}"><i></i></button>`).join("");
   $("#chapters").innerHTML=scenes.map((s,j)=>`<button class="chip" data-j="${j}">${s.k}</button>`).join("");
   document.querySelectorAll("#track .seg,#chapters .chip").forEach(b=>b.onclick=()=>go(+b.dataset.j,true));
+  $("#viewPlayer").scrollTop=0; document.body.classList.add("noscroll");
   showScene(); play();
-  $("#viewPlayer").scrollIntoView({behavior:"smooth",block:"start"});
 }
 function showScene(){
   const s=scenes[si], st=$("#stage");
@@ -870,8 +879,9 @@ function stopSpeak(){speechId++;speaking=false;try{speechSynthesis.cancel()}catc
 $("#playBtn").onclick=()=>playing?pause():play();
 $("#prevBtn").onclick=()=>go(si-1);
 $("#nextBtn").onclick=()=>go(si+1);
-$("#backBtn").onclick=()=>{pause();$("#viewPlayer").hidden=true;crumb(2);$("#viewList").scrollIntoView({behavior:"smooth"});};
-document.addEventListener("keydown",e=>{if($("#viewPlayer").hidden)return;if(e.code==="Space"&&e.target.tagName!=="BUTTON"){e.preventDefault();playing?pause():play();}if(e.key==="ArrowRight")go(si+1);if(e.key==="ArrowLeft")go(si-1);});
+function closePlayer(){pause();voice=false;$("#viewPlayer").hidden=true;document.body.classList.remove("noscroll");crumb(2);}
+$("#backBtn").onclick=closePlayer;
+document.addEventListener("keydown",e=>{if($("#viewPlayer").hidden)return;if(e.key==="Escape")return closePlayer();if(e.code==="Space"&&e.target.tagName!=="BUTTON"){e.preventDefault();playing?pause():play();}if(e.key==="ArrowRight")go(si+1);if(e.key==="ArrowLeft")go(si-1);});
 
 /* Açılış: örnek olarak kedi seçili, listede örnek gösterilir */
 curA="kedi"; renderAnimals(); renderList();

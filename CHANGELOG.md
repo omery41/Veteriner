@@ -1,5 +1,8 @@
 # Sürüm Notları
 
+## 1.2.1 · 8 Kasım 2026
+- Hastalık seçilince anlatım sayfanın altında değil, ekranın tamamında açılıyor.
+
 ## 1.2.0 · 8 Kasım 2026
 - Sürüm bilgisi ve sürüm notları eklendi (sayfanın en altında, kapalı olarak).
 
