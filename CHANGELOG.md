@@ -1,5 +1,10 @@
 # Patiderdi · Sürüm Notları
 
+## 1.6.1 · 8 Kasım 2026
+- "Sesi oynat" butonuna basınca sesin hiç çıkmaması düzeltildi; ses artık dokunuşla aynı anda başlıyor (iPhone bunu şart koşuyor).
+- Telefonda 60 MB indiren ara ses kaldırıldı; stüdyo kayıtları hazır olana kadar cihaz sesi çalıyor.
+- Ses takılırsa anlatım beklemeden devam ediyor.
+
 ## 1.6.0 · 8 Kasım 2026
 - 60 hastalığın tüm bölümleri kontrol edildi; klinik tedavisi 2 maddede kalan 5 hastalık tamamlandı.
 - Belirti ve öneri maddeleri bölüm açılır açılmaz görünüyor.

@@ -241,8 +241,12 @@ details.ver ul{margin:4px 0 0;padding-left:18px;display:flex;flex-direction:colu
   </details>
 
   <details class="ver" id="ver">
-    <summary>Sürüm 1.6.0</summary>
+    <summary>Sürüm 1.6.1</summary>
     <div class="notes">
+      <div><h4>1.6.1 <span>· 8 Kasım 2026</span></h4>
+        <ul><li>"Sesi oynat" butonuna basınca sesin hiç çıkmaması düzeltildi. Ses artık dokunuşla aynı anda başlıyor; iPhone bunu şart koşuyor.</li>
+        <li>Telefonda 60 MB indiren ara ses kaldırıldı. Stüdyo kayıtları hazır olana kadar cihaz sesi çalıyor.</li>
+        <li>Ses takılırsa anlatım beklemeden devam ediyor.</li></ul></div>
       <div><h4>1.6.0 <span>· 8 Kasım 2026</span></h4>
         <ul><li>60 hastalığın tüm bölümleri kontrol edildi; klinik tedavisi 2 maddede kalan 5 hastalık (tavşan tırnak ve obezite, hamster tırnak, kaplumbağa gaga ve tırnak) tamamlandı.</li>
         <li>Belirti ve öneri maddeleri bölüm açılır açılmaz görünüyor; önceden bölüm boyunca yavaşça beliriyordu.</li>
@@ -853,10 +857,12 @@ function startVoiced(){ elapsed=0; t0=performance.now(); showScene(); if(playing
 function toggleVoice(){
   voice=!voice;
   if(!voice){ stopSpeak(); updateVbtn(); return; }
-  unlockAudio();
-  if(clipFor(scenes[si])||neuralState==="ready"||neuralState==="failed") return startVoiced();
-  pause(); updateVbtn();
-  ensureNeural().then(()=>{ if(voice) startVoiced(); });
+  unlockAudio(); primeSpeech();
+  startVoiced();
+}
+/* iOS ve bazı Android tarayıcıları sesi yalnızca dokunuşun içinde başlatmaya izin verir; ilk sözcük burada açılır */
+function primeSpeech(){
+  try{ if(!("speechSynthesis" in window)) return; speechSynthesis.resume(); const u=new SpeechSynthesisUtterance(" "); u.volume=0; u.lang="tr-TR"; speechSynthesis.speak(u); }catch(e){}
 }
 $("#stage").addEventListener("click",e=>{ if(e.target.closest(".vbtn")) toggleVoice(); });
 function totalDur(){return scenes.reduce((a,s)=>a+s.dur,0)}
@@ -964,8 +970,11 @@ function clipFor(sc){ return clipMap&&sc&&clipMap[sc.aid]?`audio/${clipMap[sc.ai
 function playUrl(url,id){
   return new Promise(res=>{
     if(id!==speechId) return res();
-    audioEl.onended=audioEl.onerror=()=>res();
-    audioEl.src=url; audioEl.play().catch(()=>res());
+    let done=false; const fin=()=>{ if(!done){done=true;res();} };
+    audioEl.onended=audioEl.onerror=fin;
+    audioEl.onloadedmetadata=()=>{ if(isFinite(audioEl.duration)) setTimeout(fin,(audioEl.duration+2)*1000); };
+    setTimeout(()=>{ if(audioEl.paused&&!done&&audioEl.currentTime===0) fin(); },8000);
+    audioEl.src=url; const pr=audioEl.play(); if(pr&&pr.catch) pr.catch(()=>{ if(id===speechId) deviceSpeak(scenes[si].say,id); done=true; });
   });
 }
 function speak(text){
@@ -975,14 +984,15 @@ function speak(text){
     playUrl(clip,id).then(()=>{ if(id===speechId){ speaking=false; const nx=clipFor(scenes[si+1]); if(nx){ const a=new Audio(); a.preload="auto"; a.src=nx; } } });
     return;
   }
-  if(neuralState==="ready"){ speakNeural(text,id).catch(()=>{ if(id===speechId) deviceSpeak(text,id); }); return; }
   deviceSpeak(text,id);
 }
 function deviceSpeak(text,id){
   try{
     if(!("speechSynthesis" in window)){speaking=false;return;}
     if(!bestVoice) pickVoice();
+    try{ speechSynthesis.resume(); }catch(e){}
     const parts=splitSentences(text);
+    setTimeout(()=>{ if(id===speechId) speaking=false; }, text.length*85+3000);
     parts.forEach((p,i)=>{
       const u=new SpeechSynthesisUtterance(p);
       u.lang="tr-TR"; if(bestVoice) u.voice=bestVoice;
@@ -993,7 +1003,7 @@ function deviceSpeak(text,id){
     });
   }catch(e){speaking=false;}
 }
-function stopSpeak(){speechId++;speaking=false;try{speechSynthesis.cancel()}catch(e){}try{audioEl.pause();}catch(e){}}
+function stopSpeak(){speechId++;speaking=false;try{ if(speechSynthesis.speaking||speechSynthesis.pending) speechSynthesis.cancel(); }catch(e){}try{audioEl.pause();}catch(e){}}
 $("#playBtn").onclick=()=>playing?pause():play();
 $("#prevBtn").onclick=()=>go(si-1);
 $("#nextBtn").onclick=()=>go(si+1);
