@@ -1,5 +1,11 @@
 # Patiderdi · Sürüm Notları
 
+## 1.4.0 · 8 Kasım 2026
+- Sesli anlatım artık robotik cihaz sesi yerine doğal bir yapay zekâ Türkçe sesiyle (Piper) yapılıyor.
+- Doğal ses ilk kullanımda bir kez indiriliyor, sonra telefonda saklanıyor.
+- Yüzde, derece ve aralıklar doğal okunuyor ("yüzde 7", "3 ile 6").
+- Doğal ses yüklenemezse cihaz sesi devreye giriyor.
+
 ## 1.3.0 · 8 Kasım 2026
 - Uygulamanın adı Patiderdi oldu.
 - Yeni çizim tarzı simge: yara bantlı pati. Tarayıcı sekmesinde ve iPhone ana ekranında görünür.
