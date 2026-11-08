@@ -25,6 +25,7 @@ jobs:
         animal: [kedi, kopek, kus, tavsan, hamster, kaplumbaga]
     steps:
       - uses: actions/checkout@v4
+        with: { ref: main }  # mevcut kayıtları görmek için en güncel hali
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
       - run: node tools/build_narration.mjs
@@ -67,6 +68,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with: { ref: main }  # mevcut kayıtları görmek için en güncel hali
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
       - uses: actions/download-artifact@v4
