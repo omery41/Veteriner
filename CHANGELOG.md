@@ -1,5 +1,10 @@
 # Patiderdi · Sürüm Notları
 
+## 1.8.0 · 8 Kasım 2026
+- Yeni "Hayvanlarım" bölümü: künye, aşılar, parazit ve ilaçlar, hastalık geçmişi, kilo grafiği, veteriner ziyaretleri. Kayıtlar yalnızca cihazda (localStorage) saklanır.
+- "Veterinerime gönder": kayıt sıkıştırılıp bağlantının # kısmına konur (sunucuya gitmez); WhatsApp, e-posta, kopyalama, yazdır/PDF. Bağlantıyı açan "Kayıtlarıma ekle" ile kendi cihazına alabilir.
+- Yaklaşan/geciken aşı ve parazit uyarıları, .ics takvim hatırlatması, hastalık geçmişinden anlatıma geçiş, JSON yedek indirme/yükleme.
+
 ## 1.7.0 · 8 Kasım 2026
 - Hastalık açılınca çubuk kendiliğinden ilerlemiyor; anlatım "Sesi oynat" ya da oynat tuşuyla başlıyor.
 - İlerleme çubuğu ve süre kaydın gerçek uzunluğunu izliyor; ses bitmeden sonraki bölüme geçilmiyor.
