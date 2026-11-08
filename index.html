@@ -346,8 +346,10 @@ dialog#dlg::backdrop{background:rgba(5,20,18,.5)}
   </details>
 
   <details class="ver" id="ver">
-    <summary>Sürüm 1.8.1</summary>
+    <summary>Sürüm 1.8.2</summary>
     <div class="notes">
+      <div><h4>1.8.2 <span>· 8 Kasım 2026</span></h4>
+        <ul><li>Patilerim'deki ifadeler yenilendi: "Pati ekle", "Yeni pati".</li></ul></div>
       <div><h4>1.8.1 <span>· 8 Kasım 2026</span></h4>
         <ul><li>"Hayvanlarım" bölümünün adı "Patilerim" oldu.</li></ul></div>
       <div><h4>1.8.0 <span>· 8 Kasım 2026</span></h4>
@@ -1203,7 +1205,7 @@ function openForm(kind,rec,onSave){
     return `<label${type==="text"&&kind!=="pet"?' class="full"':""}>${lab}<input type="${t}" name="${k}" value="${v}"${rq}${type==="tel"?' autocomplete="tel"':""}></label>`;
   };
   const dlg=$("#dlg");
-  dlg.innerHTML=`<form class="dlgin" method="dialog" novalidate><h3>${isNew?(kind==="pet"?"Yeni hayvan":F.title+" ekle"):F.title+" düzenle"}</h3>
+  dlg.innerHTML=`<form class="dlgin" method="dialog" novalidate><h3>${isNew?(kind==="pet"?"Yeni pati":F.title+" ekle"):F.title+" düzenle"}</h3>
     <div class="fgrid">${F.fields.map(field).join("")}</div><p class="err" hidden></p>
     <div class="dlgacts"><button type="button" class="btn" data-cancel>Vazgeç</button><button type="submit" class="btn pri">Kaydet</button></div></form>`;
   const form=dlg.querySelector("form");
@@ -1236,9 +1238,9 @@ function dueTag(p){
 }
 function renderPets(){
   const v=$("#viewPets");
-  v.innerHTML=`<div class="listhead"><h2>Patilerim</h2><button class="btn pri" id="addPet">+ Hayvan ekle</button></div>
+  v.innerHTML=`<div class="listhead"><h2>Patilerim</h2><button class="btn pri" id="addPet">+ Pati ekle</button></div>
   ${pets.length?`<ul class="pets">${pets.map(p=>`<li><button class="pcard" data-id="${esc(p.id)}">${avatarHTML(p)}<span><b>${esc(p.name)}</b><small>${esc([spName(p.species),p.breed,ageTxt(p.birth)].filter(Boolean).join(" · "))}</small><br>${dueTag(p)}</span></button></li>`).join("")}</ul>`
-  :`<div class="empty"><b>Henüz kayıt yok</b>Künye, aşılar, hastalık geçmişi ve kilo takibini burada tutabilir, veterinerinize tek dokunuşla gönderebilirsiniz.</div>`}
+  :`<div class="empty"><b>Henüz pati eklenmedi</b>Künye, aşılar, hastalık geçmişi ve kilo takibini burada tutabilir, veterinerinize tek dokunuşla gönderebilirsiniz.</div>`}
   <div class="privacy"><span>🔒 Kayıtlar yalnızca bu cihazda saklanır; hiçbir sunucuya gönderilmez. Telefon değişirse diye ara sıra yedek alın. iPhone'da siteyi "Ana Ekrana Ekle" ile kullanmak kayıtları daha güvende tutar.</span>
   <button class="btn sm" id="bkDown">Yedeği indir</button><label class="btn sm" style="cursor:pointer">Yedekten yükle<input type="file" accept="application/json,.json" id="bkUp" hidden></label></div>`;
   $("#addPet").onclick=()=>{ curP=null; openForm("pet",null,p=>{ pets.push(normPet(p)); if(savePets()){ renderPets(); openPet(p.id); } }); };
@@ -1283,7 +1285,7 @@ function renderPet(){
   ${due.length?`<div class="alerts">${due.map(r=>`<div class="alert ${r.d<0?"bad":""}"><span>${r.d<0?"⚠️":"⏰"}</span><span><b>${esc(r.name)}</b> ${r.d<0?`${-r.d} gün gecikti`:r.d===0?"bugün":`${r.d} gün sonra`} (${fmtD(r.next)})</span></div>`).join("")}</div>`:""}
   <div class="sec"><div class="sechead"><h3>Künye</h3></div>${kv.length?`<dl class="kv">${kv.map(([k,x])=>`<dt>${k}</dt><dd>${k==="Doğum"?x:esc(x)}</dd>`).join("")}</dl>`:'<p class="muted">Bilgi eklenmemiş.</p>'}</div>
   ${SECS.map(([k,t])=>`<div class="sec"><div class="sechead"><h3>${t}</h3><button class="btn sm pri" data-add="${k}">+ Ekle</button></div>${k==="wt"?weightChart(p.wt):""}${p[k].length?`<ul class="recs">${sorted(k).map(r=>recRow(k,r)).join("")}</ul>`:`<p class="muted">${k==="ill"?"Tanıyı Patiderdi listesinden seçerseniz, kayıttan o hastalığın anlatımına geçebilirsiniz.":"Henüz kayıt yok."}</p>`}</div>`).join("")}
-  <button class="btn danger" id="petDel" style="align-self:center;width:auto">Bu hayvanın kaydını sil</button>`;
+  <button class="btn danger" id="petDel" style="align-self:center;width:auto">Bu patinin kaydını sil</button>`;
   $("#petBack").onclick=closePet;
   $("#petEdit").onclick=()=>openForm("pet",p,o=>{ Object.assign(p,o); if(!o.photo) delete p.photo; savePets(); renderPet(); });
   $("#petSend").onclick=()=>openShare(p);
@@ -1370,7 +1372,7 @@ function summaryHTML(p){
     <section><h3>Hastalık geçmişi</h3>${tbl(["Tarih","Tanı","Tedavi","Not"],by("ill").map(r=>[fmtD(r.date),esc(r.name),esc(r.treat),esc(r.note)]))}</section>
     <section><h3>Kilo</h3>${weightChart(p.wt)}${tbl(["Tarih","Kilo"],by("wt").slice(0,8).map(r=>[fmtD(r.date),esc(r.kg)+" kg"]))}</section>
     <section><h3>Veteriner ziyaretleri</h3>${tbl(["Tarih","Neden","Klinik","Not"],by("visit").map(r=>[fmtD(r.date),esc(r.reason),esc(r.clinic),esc(r.note)]))}</section>
-    <p class="foot">Bu özet hayvan sahibinin kendi kayıtlarından ${fmtD(todayISO())} tarihinde hazırlanmıştır. Patiderdi · ${esc(SITE)}</p></article>`;
+    <p class="foot">Bu özet pati sahibinin kendi kayıtlarından ${fmtD(todayISO())} tarihinde hazırlanmıştır. Patiderdi · ${esc(SITE)}</p></article>`;
 }
 let sumPet=null;
 function showSummary(p,incoming){
@@ -1403,7 +1405,7 @@ function backupUp(file){
   if(!file) return; const fr=new FileReader();
   fr.onload=()=>{ try{ const o=JSON.parse(fr.result); const list=Array.isArray(o)?o:o.pets; if(!Array.isArray(list)) throw 0;
       let n=0; list.forEach(x=>{ const p=normPet(x); if(p.photo&&!/^data:image\/(jpeg|png|webp);base64,[A-Za-z0-9+\/=]+$/.test(p.photo)) delete p.photo; const i=pets.findIndex(q=>q.id===p.id); if(i>=0) pets[i]=p; else pets.push(p); n++; });
-      if(savePets()){ renderPets(); toast(n+" hayvanın kaydı yüklendi"); } }
+      if(savePets()){ renderPets(); toast(n+" patinin kaydı yüklendi"); } }
     catch(e){ toast("Bu dosya bir Patiderdi yedeği değil"); } };
   fr.readAsText(file);
 }

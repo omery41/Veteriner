@@ -1,5 +1,8 @@
 # Patiderdi · Sürüm Notları
 
+## 1.8.2 · 8 Kasım 2026
+- Patilerim'deki ifadeler yenilendi: "Pati ekle", "Yeni pati", "Henüz pati eklenmedi".
+
 ## 1.8.1 · 8 Kasım 2026
 - "Hayvanlarım" bölümünün adı "Patilerim" oldu.
 
