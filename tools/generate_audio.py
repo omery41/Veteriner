@@ -17,14 +17,43 @@ def sentences(text):
     parts = [p.strip() for p in re.split(r"(?<=[.!?;:])\s+", text) if p.strip()]
     out = []
     for p in parts:  # çok uzun cümleleri virgülden böl
-        while len(p) > 220:
-            cut = p.rfind(",", 0, 220)
+        while len(p) > 200:
+            cut = p.rfind(",", 0, 200)
             if cut < 60:
                 break
             out.append(p[: cut + 1].strip())
             p = p[cut + 1 :].strip()
         out.append(p)
     return out
+
+
+def chunks_of(text, min_len=55, max_len=200):
+    """Kısa cümleleri birleştirir. Chatterbox tek kelimelik girdilerde uydurma ses üretebiliyor
+    ("Kanama." gibi), bu yüzden her parça en az ~55 karakter olur."""
+    out = []
+    for s in sentences(text):
+        if out and (len(out[-1]) < min_len or len(s) < 25) and len(out[-1]) + len(s) + 1 <= max_len:
+            out[-1] += " " + s
+        else:
+            out.append(s)
+    if len(out) > 1 and len(out[-1]) < 25:
+        out[-2] += " " + out.pop()
+    return out
+
+
+def trim(w, sr, thr=0.01):
+    """Baştaki ve sondaki sessizliği/nefes artığını kırpar."""
+    a = w.abs().squeeze(0)
+    win = int(sr * 0.02)
+    if a.numel() < win * 3:
+        return w
+    env = a[: a.numel() // win * win].view(-1, win).max(dim=1).values
+    idx = (env > thr).nonzero().squeeze(1)
+    if idx.numel() == 0:
+        return w
+    s0 = max(0, int(idx[0]) * win - int(sr * 0.05))
+    s1 = min(a.numel(), (int(idx[-1]) + 1) * win + int(sr * 0.12))
+    return w[:, s0:s1]
 
 
 def main():
@@ -57,7 +86,7 @@ def main():
 
     model = ChatterboxMultilingualTTS.from_pretrained(device="cpu")
     sr = model.sr
-    gen_kw = dict(language_id="tr", exaggeration=0.55, cfg_weight=0.4, temperature=0.75)
+    gen_kw = dict(language_id="tr", exaggeration=0.5, cfg_weight=0.4, temperature=0.65)
     if REF.exists():
         gen_kw["audio_prompt_path"] = str(REF)
         print("Referans ses kullanılıyor", flush=True)
@@ -71,13 +100,27 @@ def main():
             break
         try:
             chunks = []
-            for j, s in enumerate(sentences(x["text"])):
-                with torch.inference_mode():
-                    w = model.generate(s, **gen_kw)
-                w = w.detach().cpu().float()
-                if w.dim() == 1:
-                    w = w.unsqueeze(0)
-                chunks += [w, pause_long if j == 0 else pause_short]
+            for j, s in enumerate(chunks_of(x["text"])):
+                # Kalite kontrolü: Türkçe konuşma ~11 karakter/sn. Çok uzun çıkan (uydurma/tekrar)
+                # ya da çok kısa çıkan (kelime atlayan) denemeleri yeniden üretir, en iyisini seçer.
+                target = len(s) / 11.0
+                best = None
+                for attempt in range(5):
+                    torch.manual_seed(int(x["hash"][:8], 16) + j * 101 + attempt * 7919)
+                    with torch.inference_mode():
+                        w = model.generate(s, **gen_kw)
+                    w = w.detach().cpu().float()
+                    if w.dim() == 1:
+                        w = w.unsqueeze(0)
+                    w = trim(w, sr)
+                    dur = w.shape[1] / sr
+                    err = abs(dur - target) / target
+                    if best is None or err < best[0]:
+                        best = (err, w)
+                    if len(s) / 15.5 <= dur <= len(s) / 8.0 + 0.8:
+                        break
+                    print(f"  yeniden: {x['id']} parça {j} ({dur:.1f}s, hedef {target:.1f}s)", flush=True)
+                chunks += [best[1], pause_long if j == 0 else pause_short]
             wav = torch.cat(chunks, dim=1)
             with tempfile.TemporaryDirectory() as td:
                 tmp = Path(td) / "a.wav"

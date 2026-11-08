@@ -1,5 +1,10 @@
 # Patiderdi · Sürüm Notları
 
+## 1.7.0 · 8 Kasım 2026
+- Hastalık açılınca çubuk kendiliğinden ilerlemiyor; anlatım "Sesi oynat" ya da oynat tuşuyla başlıyor.
+- İlerleme çubuğu ve süre kaydın gerçek uzunluğunu izliyor; ses bitmeden sonraki bölüme geçilmiyor.
+- Seslendirme kalite kontrolü: kısa cümleler birleştirilerek üretiliyor, fazla uzun (uydurma) ya da kelime atlayan kayıtlar otomatik yeniden üretiliyor. Sorunlu 106 kayıt yenileniyor.
+
 ## 1.6.1 · 8 Kasım 2026
 - "Sesi oynat" butonuna basınca sesin hiç çıkmaması düzeltildi; ses artık dokunuşla aynı anda başlıyor (iPhone bunu şart koşuyor).
 - Telefonda 60 MB indiren ara ses kaldırıldı; stüdyo kayıtları hazır olana kadar cihaz sesi çalıyor.
