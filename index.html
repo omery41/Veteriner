@@ -176,11 +176,11 @@ details.ver ul{margin:4px 0 0;padding-left:18px;display:flex;flex-direction:colu
 @keyframes vetin{from{transform:translateX(40px);opacity:0}}
 @media (prefers-reduced-motion:reduce){*{animation-duration:0s!important;animation-iteration-count:1!important}}
 [hidden]{display:none!important}
-/* sekmeler: Hastalıklar | Hayvanlarım */
+/* sekmeler: Hastalıklar | Patilerim */
 .tabs{display:flex;gap:4px;padding:4px;background:var(--surface);border:1px solid var(--line);border-radius:14px;align-self:flex-start}
 .tabs button{border:0;background:none;padding:8px 16px;border-radius:10px;font-weight:700;color:var(--muted)}
 .tabs button.on{background:var(--ink);color:var(--bg)}
-/* Hayvanlarım */
+/* Patilerim */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:10px 14px;border-radius:12px;border:1px solid var(--line);background:var(--surface);font-weight:600;font-size:14px;text-decoration:none;color:var(--ink)}
 .btn.pri{background:var(--pine);border-color:var(--pine);color:var(--bg)}
 .btn.acc{background:var(--accent);border-color:var(--accent);color:#fff}
@@ -285,7 +285,7 @@ dialog#dlg::backdrop{background:rgba(5,20,18,.5)}
     <nav class="crumbs" aria-label="Adımlar"><span id="c1" class="on">1 · Hayvan</span><span id="c2">2 · Hastalık</span><span id="c3">3 · Anlatım</span></nav>
   </header>
 
-  <div class="tabs" role="tablist" aria-label="Bölümler"><button id="tabDz" class="on" role="tab" aria-selected="true">Hastalıklar</button><button id="tabPets" role="tab" aria-selected="false">Hayvanlarım</button></div>
+  <div class="tabs" role="tablist" aria-label="Bölümler"><button id="tabDz" class="on" role="tab" aria-selected="true">Hastalıklar</button><button id="tabPets" role="tab" aria-selected="false">Patilerim</button></div>
 
   <section id="viewAnimals" aria-labelledby="hA">
     <p class="eyebrow" id="hA">Kliniğe en sık gelen türler</p>
@@ -346,10 +346,12 @@ dialog#dlg::backdrop{background:rgba(5,20,18,.5)}
   </details>
 
   <details class="ver" id="ver">
-    <summary>Sürüm 1.8.0</summary>
+    <summary>Sürüm 1.8.1</summary>
     <div class="notes">
+      <div><h4>1.8.1 <span>· 8 Kasım 2026</span></h4>
+        <ul><li>"Hayvanlarım" bölümünün adı "Patilerim" oldu.</li></ul></div>
       <div><h4>1.8.0 <span>· 8 Kasım 2026</span></h4>
-        <ul><li>Yeni "Hayvanlarım" bölümü: künye, aşılar, parazit ve ilaçlar, hastalık geçmişi, kilo grafiği ve veteriner ziyaretleri. Kayıtlar yalnızca bu cihazda saklanır.</li>
+        <ul><li>Yeni "Patilerim" bölümü: künye, aşılar, parazit ve ilaçlar, hastalık geçmişi, kilo grafiği ve veteriner ziyaretleri. Kayıtlar yalnızca bu cihazda saklanır.</li>
         <li>"Veterinerime gönder": tüm bilgiler tek bağlantıya dönüşür (WhatsApp, e-posta, kopyala) ya da yazdırılıp PDF olarak kaydedilir. Bilgiler sunucuya gitmez.</li>
         <li>Yaklaşan ve geciken aşı/parazit uyarıları; takvime hatırlatma ekleme.</li>
         <li>Hastalık geçmişinden ilgili hastalığın anlatımına tek dokunuşla geçiş; yedeği indirme ve yükleme.</li></ul></div>
@@ -1131,7 +1133,7 @@ $("#backBtn").onclick=closePlayer;
 $("#copy").addEventListener("click",e=>{ const a=e.target.closest("a[data-ref]"); if(!a) return; e.preventDefault(); closePlayer(); const d=$("#kaynaklar"); d.open=true; const li=d.querySelectorAll("ol li")[+a.dataset.ref-1]; (li||d).scrollIntoView({behavior:"smooth",block:"center"}); if(li){li.style.background="var(--accent-soft)"; setTimeout(()=>li.style.background="",2500);} });
 document.addEventListener("keydown",e=>{if($("#viewPlayer").hidden)return;if(e.key==="Escape")return closePlayer();if(e.code==="Space"&&e.target.tagName!=="BUTTON"){e.preventDefault();toggleVoice();}if(e.key==="ArrowRight")go(si+1);if(e.key==="ArrowLeft")go(si-1);});
 
-/* ---------- Hayvanlarım: künye, aşı ve hastalık geçmişi — kayıtlar yalnızca bu cihazda saklanır ---------- */
+/* ---------- Patilerim: künye, aşı ve hastalık geçmişi — kayıtlar yalnızca bu cihazda saklanır ---------- */
 const PKEY="patiderdi.pets.v1", SITE="https://omery41.github.io/Veteriner/";
 let pets=[], curP=null;
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -1234,7 +1236,7 @@ function dueTag(p){
 }
 function renderPets(){
   const v=$("#viewPets");
-  v.innerHTML=`<div class="listhead"><h2>Hayvanlarım</h2><button class="btn pri" id="addPet">+ Hayvan ekle</button></div>
+  v.innerHTML=`<div class="listhead"><h2>Patilerim</h2><button class="btn pri" id="addPet">+ Hayvan ekle</button></div>
   ${pets.length?`<ul class="pets">${pets.map(p=>`<li><button class="pcard" data-id="${esc(p.id)}">${avatarHTML(p)}<span><b>${esc(p.name)}</b><small>${esc([spName(p.species),p.breed,ageTxt(p.birth)].filter(Boolean).join(" · "))}</small><br>${dueTag(p)}</span></button></li>`).join("")}</ul>`
   :`<div class="empty"><b>Henüz kayıt yok</b>Künye, aşılar, hastalık geçmişi ve kilo takibini burada tutabilir, veterinerinize tek dokunuşla gönderebilirsiniz.</div>`}
   <div class="privacy"><span>🔒 Kayıtlar yalnızca bu cihazda saklanır; hiçbir sunucuya gönderilmez. Telefon değişirse diye ara sıra yedek alın. iPhone'da siteyi "Ana Ekrana Ekle" ile kullanmak kayıtları daha güvende tutar.</span>
@@ -1275,7 +1277,7 @@ function renderPet(){
   const kv=[["Tür",spName(p.species)],["Irk",p.breed],["Cinsiyet",[p.sex,p.neut].filter(Boolean).join(", ")],["Doğum",p.birth?fmtD(p.birth)+" ("+ageTxt(p.birth)+")":""],["Renk",p.color],["Mikroçip",p.chip],["Alerji / kronik",p.allergy],["Klinik",p.clinic],["Sahibi",[p.owner,p.phone].filter(Boolean).join(" · ")]].filter(x=>x[1]);
   const due=dueInfo(p);
   const sorted=k=>[...p[k]].sort((a,b)=>(b.date||"")<(a.date||"")?-1:1);
-  v.innerHTML=`<div class="topbar"><button class="back" id="petBack">← Hayvanlarım</button></div>
+  v.innerHTML=`<div class="topbar"><button class="back" id="petBack">← Patilerim</button></div>
   <div class="panel pethead">${avatarHTML(p,true)}<div class="who"><h2>${esc(p.name)}</h2><p>${esc([spName(p.species),p.breed,ageTxt(p.birth)].filter(Boolean).join(" · "))}</p></div>
     <div class="acts"><button class="btn" id="petEdit">Künyeyi düzenle</button><button class="btn acc" id="petSend">Veterinerime gönder</button></div></div>
   ${due.length?`<div class="alerts">${due.map(r=>`<div class="alert ${r.d<0?"bad":""}"><span>${r.d<0?"⚠️":"⏰"}</span><span><b>${esc(r.name)}</b> ${r.d<0?`${-r.d} gün gecikti`:r.d===0?"bugün":`${r.d} gün sonra`} (${fmtD(r.next)})</span></div>`).join("")}</div>`:""}
